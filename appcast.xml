@@ -7,6 +7,43 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.5.1</title>
+            <pubDate>Wed, 22 Jan 2026 17:30:00 +0800</pubDate>
+            <sparkle:version>0.5.1</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>新功能</h2>
+                <ul>
+                    <li>悬停展开：鼠标悬停在收起态上自动展开面板</li>
+                    <li>点击外部自动收起：点击面板外区域自动收起</li>
+                    <li>显示器选择：支持自动/内置/外接显示器切换</li>
+                    <li>Conductor 终端支持</li>
+                    <li>TODO 任务显示</li>
+                </ul>
+                <h2>改进</h2>
+                <ul>
+                    <li>统一像素宠物状态系统：收起态现在也显示道具</li>
+                    <li>刘海形状背景：展开态背景更贴合 Notch 形状</li>
+                    <li>会话列表分组显示 + 权限审批信息去重</li>
+                    <li>展开态会话卡片布局优化</li>
+                    <li>收起态动态标题 + 优先会话显示</li>
+                </ul>
+                <h2>修复</h2>
+                <ul>
+                    <li>修复多会话跳转绑定错误</li>
+                    <li>JSONL 解析性能优化</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gr-luo/vibe-island-updates/releases/download/v0.5.1/vibe-island-0.5.1.zip"
+                sparkle:edSignature="DT/RVuvB5UvNt0IML93czaBGFhBlX4tqZ4OkWilHx9McTTzs4ulN6kYSNaM8dp7AEGOYFvyyZFSeLnhy1P9HDA=="
+                length="3128605"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.5.0</title>
             <pubDate>Tue, 20 Jan 2026 23:00:00 +0800</pubDate>
             <sparkle:version>0.5.0</sparkle:version>
