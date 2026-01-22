@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.5.2</title>
+            <pubDate>Wed, 22 Jan 2026 19:56:00 +0800</pubDate>
+            <sparkle:version>0.5.2</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>改进</h2>
+                <ul>
+                    <li>优化展开面板高度计算</li>
+                    <li>DMG 安装包格式（更小、更易安装）</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gr-luo/vibe-island-updates/releases/download/v0.5.2/vibe-island-0.5.2.dmg"
+                sparkle:edSignature="qiN8TM4028hDkN/RwKDdvhhoO4lSbrbkkme/e7RIhWsP1w5gOrjzqDpbghfEFzivRPhgK1Rm7659q0BRY0Z3Cg=="
+                length="1649431"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.5.1</title>
             <pubDate>Wed, 22 Jan 2026 17:30:00 +0800</pubDate>
             <sparkle:version>0.5.1</sparkle:version>
