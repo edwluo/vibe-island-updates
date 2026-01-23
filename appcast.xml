@@ -7,6 +7,31 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.5.4</title>
+            <pubDate>Fri, 23 Jan 2026 18:43:20 +0800</pubDate>
+            <sparkle:version>0.5.4</sparkle:version>
+            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>性能优化</h2>
+                <ul>
+                    <li>大幅降低内存占用，运行更流畅</li>
+                </ul>
+                <h2>体验提升</h2>
+                <ul>
+                    <li>优化权限审批响应速度</li>
+                    <li>提升应用稳定性</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gr-luo/vibe-island-updates/releases/download/v0.5.4/vibe-island-0.5.4.dmg"
+                sparkle:edSignature="rwECsVvoiQpLDA3g0ccHemrpuWYux08MN6O6TBC3bDF57WsDYBuf2KQEBmfozAMC2XADfmuJbS0mu/iIr8mQBg=="
+                length="1704755"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.5.3</title>
             <pubDate>Fri, 23 Jan 2026 15:42:00 +0800</pubDate>
             <sparkle:version>0.5.3</sparkle:version>
