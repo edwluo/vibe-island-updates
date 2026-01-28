@@ -7,6 +7,30 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.6.4</title>
+            <pubDate>Tue, 28 Jan 2026 23:16:00 +0800</pubDate>
+            <sparkle:version>0.6.4</sparkle:version>
+            <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Auto-detect terminal Bundle ID (supports any terminal without manual configuration)</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>No longer mistakenly activates Terminal.app when terminal type is unknown</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.4/vibe-island-0.6.4.dmg"
+                sparkle:edSignature="3lK5G3QUtQqVHdWRZ3XWZme8YQ0OKWtpcjj3k2DAmXVsg21cWN4/hvTBwNZ7agFqvxV4K1It2vKpQmvXBH+tDQ=="
+                length="12318395"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.6.3</title>
             <pubDate>Tue, 28 Jan 2026 22:11:00 +0800</pubDate>
             <sparkle:version>0.6.3</sparkle:version>
