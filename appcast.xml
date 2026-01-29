@@ -7,6 +7,44 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.7.0</title>
+            <pubDate>Thu, 30 Jan 2026 07:15:00 +0800</pubDate>
+            <sparkle:version>0.7.0</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>🎉 Major Update: Full Codex Support</h2>
+                <h3>New Features</h3>
+                <ul>
+                    <li>Codex session monitoring via JSONL for real-time status display</li>
+                    <li>Codex Notify Hook for terminal jump and task completion alerts</li>
+                    <li>Auto-configure Codex notify hook on startup (zero-config experience)</li>
+                    <li>Multi-Codex session support: monitor multiple sessions simultaneously</li>
+                    <li>Compact pixel character for minimized state</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Adaptive polling frequency (300ms active, 1-3s idle)</li>
+                    <li>File truncation/replacement detection for reliability</li>
+                    <li>Optimized session cleanup mechanism</li>
+                    <li>More compact minimized state layout</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed permission approval popup occasionally not showing details</li>
+                    <li>Fixed process wait race condition</li>
+                    <li>Fixed compact pixel character blinking issue</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.0/vibe-island-0.7.0.dmg"
+                sparkle:edSignature="2ndz039OVhtxppvnF14wcGjxCb8/jdKzqGn6TA+xaSxREW0xyuTT/jDRJ1EbmGb42pAazPuUc0VTYTF1pjpJCw=="
+                length="12645820"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.6.7</title>
             <pubDate>Wed, 29 Jan 2026 22:51:00 +0800</pubDate>
             <sparkle:version>0.6.7</sparkle:version>
