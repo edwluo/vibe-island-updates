@@ -7,6 +7,37 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.6.6</title>
+            <pubDate>Wed, 29 Jan 2026 18:22:00 +0800</pubDate>
+            <sparkle:version>0.6.6</sparkle:version>
+            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Onboarding icon fly animation + screen selection optimization</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Comprehensive terminal name retrieval strategy for more accurate title display</li>
+                    <li>Increased external display title area width for better visibility</li>
+                </ul>
+                <h2>Stability</h2>
+                <ul>
+                    <li>Upgraded to Swift 6 strict concurrency mode for improved stability</li>
+                    <li>Fixed geometry calculation issues when switching between multiple screens</li>
+                    <li>Fixed state race condition after permission approval</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.6/vibe-island-0.6.6.dmg"
+                sparkle:edSignature="+NyLpJQ7bhuH0tHxDid7dCx1rn2+rjNigR9tz5aMwZYfa3J6acLwf2TnTdjw9ZgOnBYVJ9jTdJ4bcpK0Xk3FBg=="
+                length="12544688"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.6.5</title>
             <pubDate>Wed, 29 Jan 2026 00:04:00 +0800</pubDate>
             <sparkle:version>0.6.5</sparkle:version>
