@@ -7,6 +7,44 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.7.1</title>
+            <pubDate>Fri, 31 Jan 2026 08:20:00 +0800</pubDate>
+            <sparkle:version>0.7.1</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>🎉 New Features</h2>
+                <ul>
+                    <li><b>Archive Button</b>: Manually clear zombie sessions with one click</li>
+                    <li><b>Gemini CLI Support</b>: Full integration with Google Gemini CLI</li>
+                    <li><b>Conductor Auto-Approve</b>: Automatic permission approval for Conductor app</li>
+                    <li><b>Extended Timeout</b>: Permission approval timeout extended to 15 minutes</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Hook scripts now use absolute Python path for better reliability</li>
+                    <li>Codex notify hook auto-heals from old format</li>
+                    <li>Hook scripts copied to fixed location for robust configuration</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed Conductor sessions disappearing frequently</li>
+                    <li>Fixed macOS icon size issues</li>
+                    <li>Fixed app hanging on startup (APPLE-MACOS-4)</li>
+                    <li>Fixed Codex notify hook configuration format</li>
+                    <li>Fixed Codex pipe buffer order issue</li>
+                    <li>Fixed Codex session cleanup problems</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.1/vibe-island-0.7.1.dmg"
+                sparkle:edSignature="l0ptfWjUV89yjYQOOavewr90ZgC6hz2T9mKMCp0B3Y8sZjPt/I4xfVo/VnHAQZIMPH2o0J0Z3ra3/ole7mVRDg=="
+                length="12687172"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.7.0</title>
             <pubDate>Thu, 30 Jan 2026 07:15:00 +0800</pubDate>
             <sparkle:version>0.7.0</sparkle:version>
