@@ -7,6 +7,42 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.9.1</title>
+            <pubDate>Tue, 03 Mar 2026 19:20:00 +0800</pubDate>
+            <sparkle:version>0.9.1</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li><strong>Warp terminal precise jump</strong> — Click a session to jump directly to the correct Warp tab and split pane</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Localized Sparkle update notes (English, Chinese, Japanese, Korean)</li>
+                    <li>Simplified beta expiration behavior</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Ghostty split pane focus now correctly targets the right pane</li>
+                    <li>Tab rename no longer breaks jump accuracy (Ghostty & Warp)</li>
+                    <li>Tab reordering automatically updates jump cache (Warp)</li>
+                    <li>Fixed stale session data appearing after app restart</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/0.9.1/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/0.9.1/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/0.9.1/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/0.9.1/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-0.9.1.dmg"
+                sparkle:edSignature="fW5ANQCHWTk19525C7dFsmPIyS3qjrhxIDJeMsutzDquGBTzwQGkGs7K7WpMnXYfHRewfxYrWnz6zQlb36GdDg=="
+                length="11065938"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.9.0</title>
             <pubDate>Mon, 03 Mar 2026 06:18:00 +0800</pubDate>
             <sparkle:version>0.9.0</sparkle:version>
