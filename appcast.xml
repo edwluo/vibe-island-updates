@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Vibe Island Updates</title>
+        <link>https://edwluo.github.io/vibe-island-updates/appcast.xml</link>
+        <description>Vibe Island - macOS Notch panel for Claude Code</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 0.9.0</title>
+            <pubDate>Mon, 03 Mar 2026 06:18:00 +0800</pubDate>
+            <sparkle:version>0.9.0</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li><strong>Rich approval details</strong> — Edit diffs, Write file preview, Bash commands, Read file preview, WebFetch/WebSearch context, and ExitPlanMode plan preview shown directly in the notch panel</li>
+                    <li><strong>Completion card</strong> — context preview when AI finishes a task, auto-expands for quick review</li>
+                    <li><strong>Ghostty split-pane precise jumping</strong> — AX-based tab cache enables accurate jump even with multiple splits</li>
+                    <li><strong>Session recovery on restart</strong> — persistent terminal metadata allows seamless session restore after app restart</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>iTerm2 tmux -CC jump speed improved (1370ms → 200ms) via AppleScript pane cache</li>
+                    <li>Hover pause: expanded panel stays open while mouse is inside (5s minimum guarantee)</li>
+                    <li>DMG installer: pixel art Applications folder icon for better dark background visibility</li>
+                    <li>Menu reorganization: Help Improve moved before Quit</li>
+                    <li>Debug log noise reduced for lower token consumption</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Ghostty+tmux cold start jump failure resolved</li>
+                    <li>Ghostty non-frontmost AXPress now works without flicker</li>
+                    <li>Settings toggle no longer resets panel height</li>
+                    <li>Daily restart no longer shows unnecessary "restart CLI" prompt</li>
+                    <li>Bash approval text wraps naturally with description displayed</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-0.9.0.dmg"
+                sparkle:edSignature="UsyuFvCzZfucJE+XXHue23Er6iVtz4GSg0B1uXl0TAMAHihRdVei8sGtAgudo/Z+IQXhkArjcgJeIfXVoD+YBg=="
+                length="11050336"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.8.2</title>
+            <pubDate>Sat, 01 Mar 2026 19:52:00 +0800</pubDate>
+            <sparkle:version>0.8.2</sparkle:version>
+            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Faster terminal jump with pre-activated app window</li>
+                    <li>Smarter Codex idle detection with layered delay for thinking states</li>
+                    <li>Ghostty + tmux split pane jumping now at pane-level precision</li>
+                    <li>Unified code signing for debug and release builds</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed terminal jump focus being stolen by title updates in tmux</li>
+                    <li>Fixed Ghostty + tmux jump timing with retry for set-titles propagation</li>
+                    <li>Fixed Ghostty AX failure now falls back to tmux pane check</li>
+                    <li>Fixed Codex processing state being skipped by idle fallback</li>
+                    <li>Fixed 4 missing UserDefaults keys during bundle ID migration</li>
+                    <li>Improved hover behavior — buttons trigger highlight, text area preserved</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/vibe-island-0.8.2.dmg"
+                sparkle:edSignature="tA0vJvSLOip4g/LIH/DE7XvuieFVKooPEblR3I+s/Z2OVUBEQuGNG0D/qQ9wqGVjpc9Lkhf2N6NNAJ3pOP0bDA=="
+                length="10752769"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.8.1</title>
+            <pubDate>Sat, 01 Mar 2026 00:07:00 +0800</pubDate>
+            <sparkle:version>0.8.1</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Ghostty tab precise jump — click a notification to jump directly to the correct Ghostty tab</li>
+                    <li>Ghostty + tmux tab jump — precise tab switching even when running inside tmux</li>
+                    <li>Auto-configure DISABLE_TERMINAL_TITLE for Ghostty users (takes effect on next Claude Code session)</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Session title persists after /rename in Ghostty — no longer overwritten by new messages</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed false-positive terminal approval detection that could dismiss permission dialogs</li>
+                    <li>Improved accessibility action fallback when window activation fails</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/vibe-island-0.8.1.dmg"
+                sparkle:edSignature="NrgUrmgc01bBNv6SeX3k+0eos7sAKRX2kaqmKE+60nYc5nRgEyaWFUe3BoISajkmT2kij810XnsIQh0ZMgmaAg=="
+                length="10737131"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.8.0</title>
+            <pubDate>Sat, 28 Feb 2026 00:31:00 +0800</pubDate>
+            <sparkle:version>0.8.0</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Smart panel suppression: panel won't auto-expand when your terminal is in the foreground</li>
+                    <li>Full i18n support: English, Simplified Chinese, Japanese, and Korean</li>
+                    <li>ESC interrupt detection: automatically detects interrupted sessions and shows orange "Interrupted" status</li>
+                    <li>Clean/Detailed layout modes: choose your preferred panel style with customizable width</li>
+                    <li>Enhanced tmux support: precise pane-level jumping for both tmux -CC and regular tmux</li>
+                    <li>Terminal.app precise tab jumping: accurately switch to the correct tab</li>
+                    <li>MCP tools display server name instead of generic "MCP" label</li>
+                    <li>Improved session titles: shows first user message, aligned with Claude Code's /resume</li>
+                    <li>Instant approval detection: faster permission response with precise toolUseId matching</li>
+                    <li>Conversation compact notification: auto-expands panel when conversation is compacted</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Hover highlight on approval buttons for better visual feedback</li>
+                    <li>Session card interaction refinements with progressive disclosure</li>
+                    <li>Updated DMG installer with 3D pixel title effect</li>
+                    <li>Restored sessions show "Restart session for live tracking" hint</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed Codex session tracking issues</li>
+                    <li>Fixed terminal detection in tmux environments</li>
+                    <li>Fixed approval UI being overwritten during parallel tool execution</li>
+                    <li>Fixed sessions getting stuck in "Working" state after ESC interrupt</li>
+                    <li>Fixed auto-collapse timer with consecutive task completions</li>
+                    <li>Improved session stability for restored sessions</li>
+                    <li>Fixed smart suppression accuracy across different tabs and panes</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/vibe-island-0.8.0.dmg"
+                sparkle:edSignature="tPuioQK4QwQBCdz8uABiAaJ81wIvzdB33WcTnXLeRobXblMx/E3Ewvz60rSnk8HcvqJEkeJMUTG6XgyVMwBMCA=="
+                length="10687347"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.8</title>
+            <pubDate>Sun, 15 Feb 2026 23:47:00 +0800</pubDate>
+            <sparkle:version>0.7.8</sparkle:version>
+            <sparkle:shortVersionString>0.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed panel state getting stuck after pressing Esc to cancel permission requests or questions</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/vibe-island-0.7.8.dmg"
+                sparkle:edSignature="f6IXw4CiLJ7dPDobEZFxxH+ktqK2hKgNexOVMbMuMkRAk3J2+UCbSQMxdjOrnityXe5lKWohBtgLPdEefIB6Aw=="
+                length="10511687"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.7</title>
+            <pubDate>Sun, 15 Feb 2026 21:34:00 +0800</pubDate>
+            <sparkle:version>0.7.7</sparkle:version>
+            <sparkle:shortVersionString>0.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Significantly faster hook response (10x performance improvement)</li>
+                    <li>Panel auto-collapses 5s after task completion</li>
+                    <li>Auto-expanded panel now only shows the triggered session, reducing visual clutter</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed unnecessary panel expansion on subtask completion</li>
+                    <li>Improved session stability</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/vibe-island-0.7.7.dmg"
+                sparkle:edSignature="lKt6cgJRdRM6T8OOxzrUjYL/8GK669RODzQZO6m1ry40xt7sRgnLiKRQLNTQOzeoRHLv6T7YUibKUYZi8iHmBQ=="
+                length="10510618"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.6</title>
+            <pubDate>Thu, 12 Feb 2026 19:16:00 +0800</pubDate>
+            <sparkle:version>0.7.6</sparkle:version>
+            <sparkle:shortVersionString>0.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Permission approval now shows Claude Code's native smart suggestions</li>
+                    <li>Better session text detection with queued message support</li>
+                    <li>Simplified settings menu</li>
+                    <li>Redesigned DMG installer with retro CRT terminal aesthetic</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed Notch panel disappearing when external display is hot-plugged</li>
+                    <li>Fixed unintentionally launching iTerm2 when it's not running</li>
+                    <li>Fixed third-party hooks being accidentally removed during settings update</li>
+                    <li>Fixed duplicate Codex sessions</li>
+                    <li>Improved session stability and timeout handling</li>
+                    <li>Hidden scrollbar in expanded panel</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/vibe-island-0.7.6.dmg"
+                sparkle:edSignature="NFeIjmHIUZiQQWkLQvxIffAoTw6BQrIsrvLL/DVpfgfY07th1Rb9tf3kqe/wZ898AzpwThjhXUNujUzm5O4kBg=="
+                length="10488825"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.5</title>
+            <pubDate>Thu, 06 Feb 2026 07:20:00 +0800</pubDate>
+            <sparkle:version>0.7.5</sparkle:version>
+            <sparkle:shortVersionString>0.7.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Added pending approval badge in collapsed state (bell icon shows count)</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Click outside panel now always collapses it (no longer blocked by pending approvals)</li>
+                    <li>Task completion notification always shows (even with pending approvals in other sessions)</li>
+                    <li>Permission approval timeout extended to 2 hours</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed panel unexpectedly expanding when working in other sessions</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.5/vibe-island-0.7.5.dmg"
+                sparkle:edSignature="tUIa0b+dkA+2PB4DQCC08y0lRglrp9Wn7SVOggMUoOq3Wz8lDO8pwGeody90kUyI8v8bLJYY5k+mWDd8CH8rCw=="
+                length="12834004"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.4</title>
+            <pubDate>Wed, 05 Feb 2026 22:10:00 +0800</pubDate>
+            <sparkle:version>0.7.4</sparkle:version>
+            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Allow All option for permission approval (approve once for similar requests)</li>
+                    <li>ExitPlanMode GUI approval with 4 options</li>
+                    <li>Yolo mode button for quick bypass</li>
+                    <li>Session deduplication for restored sessions</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Permission approval UI stability (event-driven architecture)</li>
+                    <li>Better tmux -CC integration</li>
+                    <li>Improved restored sessions handling</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed ExitPlanMode UI changing to regular permission UI</li>
+                    <li>Fixed permission approval responsiveness issues</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.4/vibe-island-0.7.4.dmg"
+                sparkle:edSignature="pB/a4nLNsbQv1ccDnaSA+InOvve8npHrOOa+r8SPk5/DKr0ngtdKq/VNzEPkNs9eT0irjWIrCohqdZj0JqTBCw=="
+                length="12870750"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.3</title>
+            <pubDate>Mon, 03 Feb 2026 16:10:00 +0800</pubDate>
+            <sparkle:version>0.7.3</sparkle:version>
+            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Added CLI tool labels (Claude/Codex/Gemini) in session list</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed Gemini CLI sessions disappearing unexpectedly</li>
+                    <li>Fixed Gemini hook configuration not updating from older versions</li>
+                    <li>Improved Codex session cleanup reliability</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Improved hook performance by reducing system calls</li>
+                    <li>Auto-collapse panel when all sessions are cleared</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.3/vibe-island-0.7.3.dmg"
+                sparkle:edSignature="OmdJkaQowKJg9VzErp+ERl5tU69jJh3ZKzwPl5D4EU3qVFQbvBfod3RoZzC5IsDbqK6Ja7CO0c+QbLcxjTNAAA=="
+                length="12695179"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.2</title>
+            <pubDate>Sun, 02 Feb 2026 06:50:00 +0800</pubDate>
+            <sparkle:version>0.7.2</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Archive button now always visible for easier session cleanup</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Disabled Ctrl+Tab shortcut to avoid system conflicts</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.2/vibe-island-0.7.2.dmg"
+                sparkle:edSignature="2levk9nZ7HMwqhwVsZrSEqClXusmO+sc/0aTKB2G4Wu8sjs5CVMsQXeoPYC36bC2IORZAav3i1yzkMqr0NNjDQ=="
+                length="12677191"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.1</title>
+            <pubDate>Fri, 31 Jan 2026 08:20:00 +0800</pubDate>
+            <sparkle:version>0.7.1</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>🎉 New Features</h2>
+                <ul>
+                    <li><b>Archive Button</b>: Manually clear zombie sessions with one click</li>
+                    <li><b>Gemini CLI Support</b>: Full integration with Google Gemini CLI</li>
+                    <li><b>Conductor Auto-Approve</b>: Automatic permission approval for Conductor app</li>
+                    <li><b>Extended Timeout</b>: Permission approval timeout extended to 15 minutes</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Hook scripts now use absolute Python path for better reliability</li>
+                    <li>Codex notify hook auto-heals from old format</li>
+                    <li>Hook scripts copied to fixed location for robust configuration</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed Conductor sessions disappearing frequently</li>
+                    <li>Fixed macOS icon size issues</li>
+                    <li>Fixed app hanging on startup (APPLE-MACOS-4)</li>
+                    <li>Fixed Codex notify hook configuration format</li>
+                    <li>Fixed Codex pipe buffer order issue</li>
+                    <li>Fixed Codex session cleanup problems</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.1/vibe-island-0.7.1.dmg"
+                sparkle:edSignature="l0ptfWjUV89yjYQOOavewr90ZgC6hz2T9mKMCp0B3Y8sZjPt/I4xfVo/VnHAQZIMPH2o0J0Z3ra3/ole7mVRDg=="
+                length="12687172"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.7.0</title>
+            <pubDate>Thu, 30 Jan 2026 07:15:00 +0800</pubDate>
+            <sparkle:version>0.7.0</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>🎉 Major Update: Full Codex Support</h2>
+                <h3>New Features</h3>
+                <ul>
+                    <li>Codex session monitoring via JSONL for real-time status display</li>
+                    <li>Codex Notify Hook for terminal jump and task completion alerts</li>
+                    <li>Auto-configure Codex notify hook on startup (zero-config experience)</li>
+                    <li>Multi-Codex session support: monitor multiple sessions simultaneously</li>
+                    <li>Compact pixel character for minimized state</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Adaptive polling frequency (300ms active, 1-3s idle)</li>
+                    <li>File truncation/replacement detection for reliability</li>
+                    <li>Optimized session cleanup mechanism</li>
+                    <li>More compact minimized state layout</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed permission approval popup occasionally not showing details</li>
+                    <li>Fixed process wait race condition</li>
+                    <li>Fixed compact pixel character blinking issue</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.7.0/vibe-island-0.7.0.dmg"
+                sparkle:edSignature="2ndz039OVhtxppvnF14wcGjxCb8/jdKzqGn6TA+xaSxREW0xyuTT/jDRJ1EbmGb42pAazPuUc0VTYTF1pjpJCw=="
+                length="12645820"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.7</title>
+            <pubDate>Wed, 29 Jan 2026 22:51:00 +0800</pubDate>
+            <sparkle:version>0.6.7</sparkle:version>
+            <sparkle:shortVersionString>0.6.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Optimized app signing process for better installation experience</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.7/vibe-island-0.6.7.dmg"
+                sparkle:edSignature="xnbcPGs8LpLdMBg0W2+rzmn+B1tbQJnyh2rKYSDBfpwyCP8KvgUzFURz7ccDTEt1wcWCu8ndin8ey0fhi0qVCg=="
+                length="12560107"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.6</title>
+            <pubDate>Wed, 29 Jan 2026 18:22:00 +0800</pubDate>
+            <sparkle:version>0.6.6</sparkle:version>
+            <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Onboarding icon fly animation + screen selection optimization</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Comprehensive terminal name retrieval strategy for more accurate title display</li>
+                    <li>Increased external display title area width for better visibility</li>
+                </ul>
+                <h2>Stability</h2>
+                <ul>
+                    <li>Upgraded to Swift 6 strict concurrency mode for improved stability</li>
+                    <li>Fixed geometry calculation issues when switching between multiple screens</li>
+                    <li>Fixed state race condition after permission approval</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.6/vibe-island-0.6.6.dmg"
+                sparkle:edSignature="dM6K4ijZwanlYbL1t8iaRJ+aHVtXoQ1ekvr/RYSrvQyqgRyYAQfc+vzF1hJvfD9s19cRn7IETosPQcXEhxCRDw=="
+                length="12559682"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.5</title>
+            <pubDate>Wed, 29 Jan 2026 00:04:00 +0800</pubDate>
+            <sparkle:version>0.6.5</sparkle:version>
+            <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Optimized data collection stability</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.5/vibe-island-0.6.5.dmg"
+                sparkle:edSignature="8QImEzj05uDUXNf/QMPewyXwR74PDN+xGznB3PI56/lbG4rBCPvZuz+YRdCOLA58EuVD9n79h1qlW0hGXPN5AA=="
+                length="12318379"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.4</title>
+            <pubDate>Tue, 28 Jan 2026 23:16:00 +0800</pubDate>
+            <sparkle:version>0.6.4</sparkle:version>
+            <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Auto-detect terminal Bundle ID (supports any terminal without manual configuration)</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>No longer mistakenly activates Terminal.app when terminal type is unknown</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.4/vibe-island-0.6.4.dmg"
+                sparkle:edSignature="3lK5G3QUtQqVHdWRZ3XWZme8YQ0OKWtpcjj3k2DAmXVsg21cWN4/hvTBwNZ7agFqvxV4K1It2vKpQmvXBH+tDQ=="
+                length="12318395"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.3</title>
+            <pubDate>Tue, 28 Jan 2026 22:11:00 +0800</pubDate>
+            <sparkle:version>0.6.3</sparkle:version>
+            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>First-launch welcome page (Onboarding)</li>
+                    <li>New App icon</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Auto mode now prefers main display</li>
+                    <li>Update check interval reduced to 6 hours</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.3/vibe-island-0.6.3.dmg"
+                sparkle:edSignature="8rkUHsxabOdfoNZKhN4y+S4Pq5uwFSqCU7SgSK6qiZxX9Fx5NWXnmtj2wCr5xr1L4nUhDT3KoJuDhCqUPHdpDQ=="
+                length="12316426"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.2</title>
+            <pubDate>Tue, 28 Jan 2026 18:12:00 +0800</pubDate>
+            <sparkle:version>0.6.2</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Optimized display layout for external monitors (non-notch screens)</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed duplicate entries issue when installing Hooks</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.2/vibe-island-0.6.2.dmg"
+                sparkle:edSignature="LaqGmUGuQsg7HuPkrppEyWsLkTNP1TRtw8AMjjMdSdmyzwVu+AoyHVps5f+VE3f6d1FxZnouvmOn1R3qS2i1Cg=="
+                length="11367492"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.1</title>
+            <pubDate>Tue, 28 Jan 2026 06:53:00 +0800</pubDate>
+            <sparkle:version>0.6.1</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Visual Improvements</h2>
+                <ul>
+                    <li>Pixel icon system redesign: clearer question mark icon, blinking cursor for waiting input</li>
+                    <li>Optimized Notch visual effects, aligned with Boring Notch parameters</li>
+                </ul>
+                <h2>Experience Enhancements</h2>
+                <ul>
+                    <li>Idle minimization optimization: stays expanded while working or waiting for approval</li>
+                    <li>Improved beta expiration reminder strategy</li>
+                </ul>
+                <h2>Stability</h2>
+                <ul>
+                    <li>Fixed potential bugs, improved app stability</li>
+                    <li>Migrated to SPM build, better crash log symbolication</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.1/vibe-island-0.6.1.dmg"
+                sparkle:edSignature="+pouAxe8USxJb3KnkKLgOEPffdIlMNpPfuuDpwbI8Rp3cl3eXeQVOHpr4QAXjJo8r/DfC1uLdL6gD808Pg2YDw=="
+                length="11319889"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.6.0</title>
+            <pubDate>Tue, 27 Jan 2026 05:03:59 +0800</pubDate>
+            <sparkle:version>0.6.0</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Architecture Upgrade</h2>
+                <ul>
+                    <li>New boring.notch architecture for more efficient window management</li>
+                    <li>Perfect click-through support in multi-monitor environments</li>
+                </ul>
+                <h2>Experience Improvements</h2>
+                <ul>
+                    <li>Smoother expand/collapse animations</li>
+                    <li>Improved overall stability and responsiveness</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.6.0/vibe-island-0.6.0.dmg"
+                sparkle:edSignature="yxAL54IqC2bCDqS7YABYCb73Qj47sUIDguhqat9h16FyQqO52NuvsFrdsV+xiujwQEgwuqN1mc+T3UJecBfODQ=="
+                length="2277811"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.10</title>
+            <pubDate>Mon, 26 Jan 2026 22:20:32 +0800</pubDate>
+            <sparkle:version>0.5.10</sparkle:version>
+            <sparkle:shortVersionString>0.5.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Maintenance</h2>
+                <ul>
+                    <li>Updated repository URLs for improved reliability</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.10/vibe-island-0.5.10.dmg"
+                sparkle:edSignature="M8ZI4dd1voXdphCQSjC7KHSX2qQZC/Rx04AHogRHI5NqpyhSsIjn6UQi7iDgcheR+8x81md2uaeAEiH37ZIeDA=="
+                length="2284985"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.9</title>
+            <pubDate>Mon, 26 Jan 2026 04:25:08 +0800</pubDate>
+            <sparkle:version>0.5.9</sparkle:version>
+            <sparkle:shortVersionString>0.5.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Notch left-side info display: Shows current tool/task status when collapsed</li>
+                    <li>MCP/Skill tool type indicators: MCP tools show as "MCP: tool_name", Skills as "/skill_name"</li>
+                    <li>Configurable shortcut modifier keys</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>UI localized to English for cleaner, more professional appearance</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed collapsed state click area not matching visual shape</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.9/vibe-island-0.5.9.dmg"
+                sparkle:edSignature="qloWcuWMONBZq0oDa9IDlx5xFde6ftAh/BESXqXgSoWO91fQ+5Fg5mqnpmBvLljvigMEL27aAgm5HuLqHsF4DQ=="
+                length="2251312"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.8</title>
+            <pubDate>Sat, 25 Jan 2026 18:21:00 +0800</pubDate>
+            <sparkle:version>0.5.8</sparkle:version>
+            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed app freezing issue (pipe buffer deadlock)</li>
+                    <li>Fixed socket becoming unresponsive after switching screens</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Added single-flight mechanism to prevent cleanup task accumulation</li>
+                    <li>External process calls now run asynchronously to avoid blocking the main thread</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.8/vibe-island-0.5.8.dmg"
+                sparkle:edSignature="e+nHUatV4tvITQopSdapxZIQcKetPxXYQeCyvbrlXrWy31OXYzbY5rsmwG4FaXspYGqDfgHqZpa/TwJGsg+6CQ=="
+                length="2220674"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.7</title>
+            <pubDate>Sun, 25 Jan 2026 14:51:58 +0800</pubDate>
+            <sparkle:version>0.5.7</sparkle:version>
+            <sparkle:shortVersionString>0.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Stability</h2>
+                <ul>
+                    <li>Fixed potential session cleanup false deletion issue</li>
+                    <li>TTY detection failure now degrades gracefully instead of deleting all sessions</li>
+                    <li>Fixed window jump issue in tmux -CC mode</li>
+                </ul>
+                <h2>Code Quality</h2>
+                <ul>
+                    <li>Unified iTerm2 session ID normalization</li>
+                    <li>Hook scripts now use absolute paths for improved security</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.7/vibe-island-0.5.7.dmg"
+                sparkle:edSignature="mDm+rfFp17MIPhJXEwkFKZ5MqtyFg+NiqibRICa3e6qkHaXPBpoQOMTX4MjkHutH8CH6sRf7R3qPyD9sQPlDAw=="
+                length="2196213"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.6</title>
+            <pubDate>Sun, 25 Jan 2026 13:49:49 +0800</pubDate>
+            <sparkle:version>0.5.6</sparkle:version>
+            <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed sessions disappearing unexpectedly during conversations</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Hook scripts now detect TTY via ancestor process traversal for more reliable session detection</li>
+                    <li>Fixed session ID format matching in tmux -CC mode</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.6/vibe-island-0.5.6.dmg"
+                sparkle:edSignature="IGGy9wH1+v2m+M42YYyxwOWqhSapEyvzoM4hL4m4reDMvOzaAbKGPC64iYGiBRHfWATdZc0tfpPVJ53EeO03Aw=="
+                length="2192737"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.5</title>
+            <pubDate>Sat, 25 Jan 2026 13:15:00 +0800</pubDate>
+            <sparkle:version>0.5.5</sparkle:version>
+            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Critical Fixes</h2>
+                <ul>
+                    <li>Fixed app not launching on macOS 14/15 (Universal Binary support)</li>
+                    <li>Now supports both Apple Silicon and Intel Macs</li>
+                </ul>
+                <h2>New Features</h2>
+                <ul>
+                    <li>Keyboard shortcuts: Ctrl+1/2/3 for quick approval without stealing focus</li>
+                    <li>Task list improvements: grouped by status, active tasks prioritized</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.5/vibe-island-0.5.5.dmg"
+                sparkle:edSignature="qVQeLJW7svG2jt9aCabTQWUetfhFaOzInc31s+sFrQOFB9qv3VD4Ak9C7Je6GiNFrbLCwKzgJSqnUfZWDisbAA=="
+                length="2192955"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.4</title>
+            <pubDate>Fri, 23 Jan 2026 18:43:20 +0800</pubDate>
+            <sparkle:version>0.5.4</sparkle:version>
+            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Performance</h2>
+                <ul>
+                    <li>Significantly reduced memory usage for smoother operation</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Faster permission approval response</li>
+                    <li>Improved overall stability</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.4/vibe-island-0.5.4.dmg"
+                sparkle:edSignature="rwECsVvoiQpLDA3g0ccHemrpuWYux08MN6O6TBC3bDF57WsDYBuf2KQEBmfozAMC2XADfmuJbS0mu/iIr8mQBg=="
+                length="1704755"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.3</title>
+            <pubDate>Fri, 23 Jan 2026 15:42:00 +0800</pubDate>
+            <sparkle:version>0.5.3</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Enhanced tool descriptions: WebFetch shows URL, WebSearch shows query</li>
+                    <li>Skill tools now display descriptions</li>
+                    <li>File paths simplified to relative paths (e.g., Sources/Core/SessionState.swift)</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Improved state updates after permission approval</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.3/vibe-island-0.5.3.dmg"
+                sparkle:edSignature="ELVDBLOzwQGtgzFu800pMmPkJqae4pyWOPBU99E4V/j8/di/k/ZbTxGLM9Tx3QaeL/L+hTcfIUt4Sh1wirt7BA=="
+                length="1655465"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.2</title>
+            <pubDate>Wed, 22 Jan 2026 19:56:00 +0800</pubDate>
+            <sparkle:version>0.5.2</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Terminal Support</h2>
+                <ul>
+                    <li>Cursor: VS Code fork, AI code editor</li>
+                    <li>Antigravity: emerging terminal</li>
+                    <li>Alacritty: GPU-accelerated terminal</li>
+                    <li>Kitty: GPU-accelerated terminal</li>
+                    <li>Hyper: Electron-based terminal</li>
+                    <li>Zed: high-performance editor with built-in terminal</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Optimized expanded panel height calculation</li>
+                    <li>Improved collapsed state icon and text spacing</li>
+                    <li>Switched to DMG installer format (smaller, easier to install)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.2/vibe-island-0.5.2.dmg"
+                sparkle:edSignature="qiN8TM4028hDkN/RwKDdvhhoO4lSbrbkkme/e7RIhWsP1w5gOrjzqDpbghfEFzivRPhgK1Rm7659q0BRY0Z3Cg=="
+                length="1649431"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.1</title>
+            <pubDate>Wed, 22 Jan 2026 17:30:00 +0800</pubDate>
+            <sparkle:version>0.5.1</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Hover to expand: mouse hover on collapsed state auto-expands the panel</li>
+                    <li>Click outside to collapse: clicking outside the panel auto-collapses it</li>
+                    <li>Display selection: supports auto/built-in/external monitor switching</li>
+                    <li>Conductor terminal support</li>
+                    <li>TODO task display</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Unified pixel pet state system: collapsed state now shows props</li>
+                    <li>Notch-shaped background: expanded panel better matches notch contour</li>
+                    <li>Session list grouping + permission approval deduplication</li>
+                    <li>Expanded session card layout optimization</li>
+                    <li>Collapsed state dynamic title + priority session display</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed multi-session jump binding errors</li>
+                    <li>JSONL parsing performance optimization</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.1/vibe-island-0.5.1.zip"
+                sparkle:edSignature="DT/RVuvB5UvNt0IML93czaBGFhBlX4tqZ4OkWilHx9McTTzs4ulN6kYSNaM8dp7AEGOYFvyyZFSeLnhy1P9HDA=="
+                length="3128605"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
+            <title>Version 0.5.0</title>
+            <pubDate>Tue, 20 Jan 2026 23:00:00 +0800</pubDate>
+            <sparkle:version>0.5.0</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Beta Release</h2>
+                <ul>
+                    <li>Notch panel for Claude Code status</li>
+                    <li>Permission approval via GUI</li>
+                    <li>AskUserQuestion direct answer</li>
+                    <li>iTerm2 precise jump (including tmux -CC)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v0.5.0/vibe-island-0.5.0.zip"
+                sparkle:edSignature="OnlY4au6h1W2pWKUMQGyBJnrzHRcnYm3xdPtPO6zqLuxYU/tEX2Hnw2+Q89idNPauH6CEH28WWLoFxNULfaoCg=="
+                length="3011998"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
