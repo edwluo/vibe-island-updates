@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.9.2</title>
+            <pubDate>Fri, 07 Mar 2026 06:02:00 +0800</pubDate>
+            <sparkle:version>0.9.2</sparkle:version>
+            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Improved Ghostty tab jump accuracy and reliability</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed popup windows being covered by the notch panel</li>
+                    <li>Fixed hover expansion not working after closing popup windows</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/0.9.2/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/0.9.2/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/0.9.2/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/0.9.2/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-0.9.2.dmg"
+                sparkle:edSignature="CU9nRyd18nXSCfQI/Mznjof2uMnehZU8MzE/fVP9VxJ9Hq5/jCi+7fNTcALsWxZRNY06rEoqX/DuVcvGPy6VCg=="
+                length="11248882"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.9.1</title>
             <pubDate>Tue, 03 Mar 2026 19:20:00 +0800</pubDate>
             <sparkle:version>0.9.1</sparkle:version>
