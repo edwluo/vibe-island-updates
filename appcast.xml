@@ -651,7 +651,7 @@
                 <h2>Visual Improvements</h2>
                 <ul>
                     <li>Pixel icon system redesign: clearer question mark icon, blinking cursor for waiting input</li>
-                    <li>Optimized Notch visual effects, aligned with Boring Notch parameters</li>
+                    <li>Optimized Notch visual effects and animation parameters</li>
                 </ul>
                 <h2>Experience Enhancements</h2>
                 <ul>
@@ -681,7 +681,7 @@
             <description><![CDATA[
                 <h2>Architecture Upgrade</h2>
                 <ul>
-                    <li>New boring.notch architecture for more efficient window management</li>
+                    <li>New notch panel architecture for more efficient window management</li>
                     <li>Perfect click-through support in multi-monitor environments</li>
                 </ul>
                 <h2>Experience Improvements</h2>
