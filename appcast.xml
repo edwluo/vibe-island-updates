@@ -13,20 +13,6 @@
             <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
 
-            <description><![CDATA[
-                <h2>Fixes</h2>
-                <ul>
-                    <li>Fixed a crash that could occur during prolonged use</li>
-                    <li>Improved terminal tab detection reliability</li>
-                    <li>Improved session tracking accuracy</li>
-                </ul>
-            ]]></description>
-
-            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/0.9.4/en.html</sparkle:releaseNotesLink>
-            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/0.9.4/zh-Hans.html</sparkle:releaseNotesLink>
-            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/0.9.4/ja.html</sparkle:releaseNotesLink>
-            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/0.9.4/ko.html</sparkle:releaseNotesLink>
-
             <enclosure
                 url="https://dl.vibeisland.app/VibeIsland-0.9.4.dmg"
                 sparkle:edSignature="lkavf+pAk3BTydhqT6tix+Up72C1w2ziOyXo2MYrVMygrFH0lq3PfsB+N8BKSHUP5JUSdZci7XIfXSXZeDgLAA=="
