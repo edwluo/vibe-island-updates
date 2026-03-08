@@ -13,7 +13,7 @@
             <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
 
-            <!-- description for manual update users; no releaseNotesLink = fully silent auto-update -->
+            <!-- no <!-- whats-new --> marker = silent auto-update, no What's New popup -->
             <description><![CDATA[
                 <h2>Fixes</h2>
                 <ul>
@@ -22,6 +22,11 @@
                     <li>Improved session tracking accuracy</li>
                 </ul>
             ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/0.9.4/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/0.9.4/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/0.9.4/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/0.9.4/ko.html</sparkle:releaseNotesLink>
 
             <enclosure
                 url="https://dl.vibeisland.app/VibeIsland-0.9.4.dmg"
