@@ -77,12 +77,12 @@
 
         <item>
             <title>Version 0.9.4</title>
-            <pubDate>Mon, 09 Mar 2026 05:45:00 +0800
+            <pubDate>Mon, 09 Mar 2026 05:45:00 +0800</pubDate>
             <sparkle:version>0.9.4</sparkle:version>
             <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
 
-            <!-- no <!-- whats-new --> marker = silent auto-update, no What's New popup -->
+            <!-- silent auto-update, no What's New popup -->
             <description><![CDATA[
                 <h2>Fixes</h2>
                 <ul>
