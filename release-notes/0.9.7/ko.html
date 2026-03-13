@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    color: #333;
+    margin: 8px 12px;
+    line-height: 1.5;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ddd; }
+  }
+  h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px 0 6px;
+  }
+  ul {
+    padding-left: 20px;
+    margin: 4px 0;
+  }
+  li {
+    margin: 2px 0;
+  }
+</style>
+</head>
+<body>
+<h2>새 기능</h2>
+<ul>
+  <li><strong>사용량 모니터링</strong>: Notch 패널 헤더에서 Claude API 사용량(5시간 및 7일 윈도우)을 직접 확인</li>
+  <li><strong>Codex 세션 Hooks</strong>: 명시적 시작/종료 신호를 통한 더 안정적인 Codex 세션 추적 (Codex ≥ 0.114.0 필요)</li>
+  <li><strong>Codex 스레드 제목</strong>: 앱 재시작 후에도 세션 제목이 유지됨</li>
+  <li><strong>시스템 알림 가로채기</strong>: macOS 알림을 캡처하여 인라인 표시</li>
+  <li><strong>인라인 Markdown 서식</strong>: 세션 메시지 및 승인 상세에서 리치 텍스트 렌더링</li>
+</ul>
+<h2>개선</h2>
+<ul>
+  <li>Codex 모니터링 아키텍처 업그레이드로 안정성 향상</li>
+  <li>앱 실행 시 Codex 세션 자동 복원</li>
+  <li>컴팩트 레이아웃 6% 축소</li>
+  <li>Ghostty 터미널 점프 안정성 개선</li>
+</ul>
+<h2>수정</h2>
+<ul>
+  <li>비활성 Accessibility Observer로 인한 CPU 사용 문제 수정</li>
+  <li>컴팩트 모드 벨 아이콘 및 두 자릿수 세션 카운트 표시 수정</li>
+  <li>What's New 팝업 폴백 파싱 수정</li>
+  <li>잔여 localhost 피드 URL 제거</li>
+</ul>
+</body>
+</html>

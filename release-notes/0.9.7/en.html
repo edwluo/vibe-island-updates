@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    color: #333;
+    margin: 8px 12px;
+    line-height: 1.5;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ddd; }
+  }
+  h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px 0 6px;
+  }
+  ul {
+    padding-left: 20px;
+    margin: 4px 0;
+  }
+  li {
+    margin: 2px 0;
+  }
+</style>
+</head>
+<body>
+<h2>New Features</h2>
+<ul>
+  <li><strong>Usage monitoring</strong>: See your Claude API usage (5-hour and 7-day windows) directly in the notch panel header</li>
+  <li><strong>Codex session hooks</strong>: More reliable Codex session tracking with explicit start/stop signals (Codex ≥ 0.114.0)</li>
+  <li><strong>Codex thread titles</strong>: Session titles now persist across app restarts</li>
+  <li><strong>System notification interception</strong>: Captures macOS notification alerts for inline display</li>
+  <li><strong>Inline markdown formatting</strong>: Rich text rendering in session messages and approval details</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+  <li>Improved Codex monitoring reliability with upgraded architecture</li>
+  <li>Codex sessions now restore automatically on app launch</li>
+  <li>Compact layout reduced by 6%</li>
+  <li>Improved Ghostty terminal jump reliability</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+  <li>Fixed stale accessibility observer causing CPU usage</li>
+  <li>Fixed compact mode bell icon and two-digit session count display</li>
+  <li>Fixed What's New popup fallback parsing</li>
+  <li>Removed stale localhost feed URL from update settings</li>
+</ul>
+</body>
+</html>
