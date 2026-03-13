@@ -7,6 +7,52 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.9.7</title>
+            <pubDate>Thu, 13 Mar 2026 14:00:00 +0800</pubDate>
+            <sparkle:version>0.9.7</sparkle:version>
+            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li><strong>Usage monitoring</strong>: See your Claude API usage (5-hour and 7-day windows) directly in the notch panel header</li>
+                    <li><strong>Codex session hooks</strong>: More reliable Codex session tracking with explicit start/stop signals (Codex ≥ 0.114.0)</li>
+                    <li><strong>Codex thread titles</strong>: Session titles now persist across app restarts</li>
+                    <li><strong>System notification interception</strong>: Captures macOS notification alerts for inline display</li>
+                    <li><strong>Inline markdown formatting</strong>: Rich text rendering in session messages and approval details</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Improved Codex monitoring reliability with upgraded architecture</li>
+                    <li>Codex sessions now restore automatically on app launch</li>
+                    <li>Compact layout reduced by 6%</li>
+                    <li>Improved Ghostty terminal jump reliability</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed stale accessibility observer causing CPU usage</li>
+                    <li>Fixed compact mode bell icon and two-digit session count display</li>
+                    <li>Fixed What's New popup fallback parsing</li>
+                    <li>Removed stale localhost feed URL from update settings</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/0.9.7/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/0.9.7/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/0.9.7/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/0.9.7/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-0.9.7.dmg"
+                sparkle:edSignature="lJEh6zmVmFJ1wUVpJvwhLQhN+pEapIVNviUNGZgwKu/Wr3GQgIULUdWQoM/6jd6vvvIAaErdIXTARnV1bZhQAA=="
+                length="11994081"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.9.6</title>
             <pubDate>Tue, 10 Mar 2026 01:49:00 +0800</pubDate>
             <sparkle:version>0.9.6</sparkle:version>
