@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.9.8</title>
+            <pubDate>Sat, 15 Mar 2026 04:20:00 +0800</pubDate>
+            <sparkle:version>0.9.8</sparkle:version>
+            <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Improved beta expiration handling — no more auto-quit, the app waits for your response</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed a hang caused by fullscreen detection on the main thread</li>
+                    <li>Fixed DMG installer: Applications icon and label visibility</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/0.9.8/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/0.9.8/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/0.9.8/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/0.9.8/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-0.9.8.dmg"
+                sparkle:edSignature="lpusxN6vDG6cS/YalZi7WJUvdoiDUfSYmbcO1eWM3OikEX6e6HPkeI1pImCQU1cnrc4GE1cuRBuzCtxsVNJUBg=="
+                length="11989850"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.9.7</title>
             <pubDate>Thu, 13 Mar 2026 14:00:00 +0800</pubDate>
             <sparkle:version>0.9.7</sparkle:version>
