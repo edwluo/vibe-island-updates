@@ -7,6 +7,41 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.9.9</title>
+            <pubDate>Mon, 16 Mar 2026 20:50:00 +0800</pubDate>
+            <sparkle:version>0.9.9</sparkle:version>
+            <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Clicking a session now restores minimized terminal windows (Terminal.app, iTerm2, Warp, and others)</li>
+                    <li>Faster Ghostty tab jumping after app restart</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed session title not showing for large plan-mode conversations</li>
+                    <li>Fixed /rename not working in long conversations</li>
+                    <li>Improved Codex Desktop session stability (duplicate sessions, missing titles, stale sessions)</li>
+                    <li>Improved Codex exec session cleanup reliability</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/0.9.9/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/0.9.9/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/0.9.9/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/0.9.9/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-0.9.9.dmg"
+                sparkle:edSignature="ox90onOWzt634RIEnykxQXqUmCejtHUFv0UjsYnlNYY1gZKqwGugTwlQQ+11Fw+Wf0ybpX4vDmeHTKWELw52Dg=="
+                length="12019393"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.9.8</title>
             <pubDate>Sat, 15 Mar 2026 04:20:00 +0800</pubDate>
             <sparkle:version>0.9.8</sparkle:version>
