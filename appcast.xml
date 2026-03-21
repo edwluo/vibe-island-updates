@@ -7,6 +7,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 0.9.10</title>
+            <pubDate>Sat, 22 Mar 2026 00:00:00 +0800</pubDate>
+            <sparkle:version>0.9.10</sparkle:version>
+            <sparkle:shortVersionString>0.9.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Extended beta period</li>
+                </ul>
+            ]]></description>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-0.9.10.dmg"
+                sparkle:edSignature="aSCbQ7SkU2PlbsBYF1Gn0Ihuvq/2G/Ruyu0TBos3qi48XUS9UGTPGKlHr6IWGB2Eeiv9xOf+fTVcjcZ7GUSPCA=="
+                length="12019258"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.9.9</title>
             <pubDate>Mon, 16 Mar 2026 20:50:00 +0800</pubDate>
             <sparkle:version>0.9.9</sparkle:version>
