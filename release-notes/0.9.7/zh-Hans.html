@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    color: #333;
+    margin: 8px 12px;
+    line-height: 1.5;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ddd; }
+  }
+  h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px 0 6px;
+  }
+  ul {
+    padding-left: 20px;
+    margin: 4px 0;
+  }
+  li {
+    margin: 2px 0;
+  }
+</style>
+</head>
+<body>
+<h2>新功能</h2>
+<ul>
+  <li><strong>用量监控</strong>：在 Notch 面板顶栏直接查看 Claude API 用量（5 小时和 7 天窗口）</li>
+  <li><strong>Codex 会话 Hooks</strong>：通过显式的开始/结束信号实现更可靠的 Codex 会话追踪（需要 Codex ≥ 0.114.0）</li>
+  <li><strong>Codex 线程标题</strong>：会话标题在应用重启后自动恢复</li>
+  <li><strong>系统通知拦截</strong>：捕获 macOS 通知提醒并在面板内显示</li>
+  <li><strong>内联 Markdown 格式</strong>：会话消息和审批详情支持富文本渲染</li>
+</ul>
+<h2>改进</h2>
+<ul>
+  <li>Codex 监控架构升级，可靠性提升</li>
+  <li>应用启动时自动恢复 Codex 会话</li>
+  <li>紧凑布局缩减 6%</li>
+  <li>改进 Ghostty 终端跳转稳定性</li>
+</ul>
+<h2>修复</h2>
+<ul>
+  <li>修复无效 Accessibility Observer 导致的 CPU 占用</li>
+  <li>修复紧凑模式铃铛图标和两位数会话计数显示</li>
+  <li>修复 What's New 弹窗解析回退</li>
+  <li>移除残留的 localhost Feed URL</li>
+</ul>
+</body>
+</html>
