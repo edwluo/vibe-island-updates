@@ -7,6 +7,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.1</title>
+            <pubDate>Fri, 27 Mar 2026 22:35:00 +0800</pubDate>
+            <sparkle:version>1.0.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Removed screen recording permission prompt on first launch</li>
+                    <li>Added missing translations for Settings sidebar and license error messages</li>
+                </ul>
+            ]]></description>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.1.dmg"
+                sparkle:edSignature="gsSXmabFmJdMkwggbmeELo/udla+oKtGNjtRK4sW9CO3maYhsfXMgglCqqZwtQwZW4giUzrlpVedIjNR7dK9Cw=="
+                length="15437079"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.0</title>
             <pubDate>Fri, 27 Mar 2026 21:48:00 +0800</pubDate>
             <sparkle:version>1.0.0</sparkle:version>
