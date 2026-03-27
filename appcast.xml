@@ -7,6 +7,73 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.0</title>
+            <pubDate>Fri, 27 Mar 2026 21:48:00 +0800</pubDate>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:minimumAutoupdateVersion>0.9.10</sparkle:minimumAutoupdateVersion>
+
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>Highlights</h2>
+                <ul>
+                    <li>Official 1.0 release with licensing system</li>
+                    <li>Complete onboarding experience</li>
+                    <li>Edition Card member pass</li>
+                </ul>
+                <h2>Sound</h2>
+                <ul>
+                    <li>8-bit chiptune sound system with real-time synthesis</li>
+                </ul>
+                <h2>New CLI Support</h2>
+                <ul>
+                    <li>Cursor Agent integration with approval and jump</li>
+                    <li>OpenCode integration (SSE + REST, permission and Q&amp;A)</li>
+                    <li>Gemini CLI support</li>
+                </ul>
+                <h2>Terminal Support</h2>
+                <ul>
+                    <li>cmux precise jump via Socket JSON-RPC</li>
+                    <li>Ghostty improvements (UUID cache, fork auto-detection)</li>
+                    <li>Termius and Superset detection</li>
+                    <li>Minimized window recovery for all terminals</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Session Switcher (keyboard navigation)</li>
+                    <li>Plan Review with feedback input</li>
+                    <li>AskUserQuestion GUI interaction</li>
+                    <li>Parallel permission approval queue</li>
+                    <li>IDE extension auto-install (VS Code, Cursor, Windsurf)</li>
+                    <li>Auto-collapse on mouse leave</li>
+                    <li>Redesigned Settings panel</li>
+                    <li>Customizable keyboard shortcuts</li>
+                </ul>
+                <h2>Reliability</h2>
+                <ul>
+                    <li>Network relay for improved license activation</li>
+                    <li>Three-layer activation fallback</li>
+                    <li>Better error messages for network issues</li>
+                    <li>Production-level crash monitoring</li>
+                    <li>Memory safety improvements</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.0/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.0/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.0/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.0/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.0.dmg"
+                sparkle:edSignature="OD2WP9Wtd5R6YRc3QDVWa89dkbGqyKSOhM5GLo4Iae+/vwd3WqopDzRG2l/3iDAUEQ6BmxFuBiEb6yTT31eVCg=="
+                length="15439232"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.9.10</title>
             <pubDate>Sat, 22 Mar 2026 00:00:00 +0800</pubDate>
             <sparkle:version>0.9.10</sparkle:version>
