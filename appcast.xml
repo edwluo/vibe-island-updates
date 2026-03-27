@@ -7,6 +7,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.2</title>
+            <pubDate>Fri, 27 Mar 2026 23:45:00 +0800</pubDate>
+            <sparkle:version>1.0.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Bundled onboarding wallpaper for consistent experience across all systems</li>
+                    <li>Lighter and clearer onboarding background</li>
+                </ul>
+            ]]></description>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.2.dmg"
+                sparkle:edSignature="o3ohCVCEUtPg0MC4QHCFlJzXWpZ/k6AHNSZPHf1QS068Aq0hRlO9VnHSzsWZybYHmfOXe511ECNWb2HCtv6iDA=="
+                length="16045283"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.1</title>
             <pubDate>Fri, 27 Mar 2026 22:35:00 +0800</pubDate>
             <sparkle:version>1.0.1</sparkle:version>
