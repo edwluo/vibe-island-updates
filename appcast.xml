@@ -7,6 +7,37 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.3</title>
+            <pubDate>Fri, 28 Mar 2026 07:00:00 +0800</pubDate>
+            <sparkle:version>1.0.3</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Smoother upgrade experience with welcome screen for existing users</li>
+                    <li>Louder onboarding ceremony sound</li>
+                    <li>Automatic CLI hooks recovery when overwritten by other tools</li>
+                    <li>JSONC comment support in settings files</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed crash on first launch before CLI tools are installed</li>
+                    <li>Fixed hooks configuration when settings.json doesn't exist</li>
+                    <li>Improved overall stability</li>
+                </ul>
+            ]]></description>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.3.dmg"
+                sparkle:edSignature="/PizQxoyp33zq9ZvR9I6D7ItI1ecXHBTxTW0+3K7oLJGO1Ite0+mIMSnlMFHcjH1BNzOh/NH7sJq4Xzn2tz/DA=="
+                length="16095407"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.2</title>
             <pubDate>Fri, 27 Mar 2026 23:45:00 +0800</pubDate>
             <sparkle:version>1.0.2</sparkle:version>
