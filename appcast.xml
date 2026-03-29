@@ -7,6 +7,43 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.4</title>
+            <pubDate>Sun, 29 Mar 2026 20:30:00 +0800</pubDate>
+            <sparkle:version>1.0.4</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Smarter hook configuration that adapts to your Claude Code version</li>
+                    <li>Improved audio engine stability with Bluetooth audio devices</li>
+                    <li>Better Codex terminal jumping in Ghostty and Warp</li>
+                    <li>Added Send Feedback button in Settings</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed an issue where older Claude Code versions could reject the entire settings file</li>
+                    <li>Fixed payment help not appearing after failed purchases</li>
+                    <li>Fixed onboarding button order for overseas users</li>
+                    <li>Fixed hook repair status not updating correctly in Settings</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.4/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.4/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.4/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.4/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.4.dmg"
+                sparkle:edSignature="yrzmrSMFaZElicaihkbi1EdztSCsQUELM0zRVwrcGVF+P5EHXO9yN6/OKaC67iI72c4BNqKKBPJZCLfLOSu+Cw=="
+                length="16138779"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.3</title>
             <pubDate>Fri, 28 Mar 2026 07:00:00 +0800</pubDate>
             <sparkle:version>1.0.3</sparkle:version>
