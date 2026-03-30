@@ -7,6 +7,40 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.5</title>
+            <pubDate>Mon, 30 Mar 2026 08:35:00 +0800</pubDate>
+            <sparkle:version>1.0.5</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li>Codex multi-agent support: subagent sessions now appear nested under the parent conversation instead of as separate cards</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Better Codex tool status: tool names now display consistently (e.g. "Read", "Bash", "Edit") with parameter details</li>
+                    <li>Codex reasoning text now shown in real-time during thinking phases</li>
+                    <li>Reduced phantom session flashes from Codex Desktop title sub-agents</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.5/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.5/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.5/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.5/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.5.dmg"
+                sparkle:edSignature="QYyGVRo3SxIEKH+RPyWYwARMk3jSBVOvW+xVW9uKPtcX3ADg8y0kyP2Eeu0hkl4wlCgvGIuQnKoECCfAy8WMCw=="
+                length="16201035"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.4</title>
             <pubDate>Sun, 29 Mar 2026 20:30:00 +0800</pubDate>
             <sparkle:version>1.0.4</sparkle:version>
