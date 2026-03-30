@@ -7,6 +7,41 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.6</title>
+            <pubDate>Sun, 30 Mar 2026 16:40:00 +0800</pubDate>
+            <sparkle:version>1.0.6</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Early adopter pricing now reliably works in all regions</li>
+                    <li>More reliable auto-updates for menu bar apps</li>
+                    <li>Diagnostic logging system with privacy redaction and one-click export</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed checkout showing incorrect price for some users in Asia</li>
+                    <li>Fixed sessions being incorrectly cleaned up for new CLI tools</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.6/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.6/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.6/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.6/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.6.dmg"
+                sparkle:edSignature="LuJYBstWDXuAU07XWrKBeFULwbI/4mcn/ORYfy/GkiOLflLEkvT2v0NAuvagV6bLNNTDjQg4EoWOKNpuhkNiCA=="
+                length="16651155"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.5</title>
             <pubDate>Mon, 30 Mar 2026 08:35:00 +0800</pubDate>
             <sparkle:version>1.0.5</sparkle:version>
