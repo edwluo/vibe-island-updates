@@ -7,6 +7,43 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.8</title>
+            <pubDate>Mon, 31 Mar 2026 14:45:00 +0800</pubDate>
+            <sparkle:version>1.0.8</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Added Qoder CLI support (auto-configured)</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Better window switching when terminal is on another desktop or fullscreen</li>
+                    <li>Improved Codex Desktop session detection and cleanup</li>
+                    <li>Improved checkout reliability</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed permission approval getting stuck with multiple queued requests</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.8/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.8/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.8/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.8/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.8.dmg"
+                sparkle:edSignature="DNrjVeDa8VV+Pvw2lVw2JPvQKwtWWjLtxXWpeZTM4MaGsa/5hnfwaIMH1cxVVoFRsT69qMvwvtQPjf9ZcgT+Dg=="
+                length="16942826"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.7</title>
             <pubDate>Tue, 31 Mar 2026 09:05:00 +0800</pubDate>
             <sparkle:version>1.0.7</sparkle:version>
