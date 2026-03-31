@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.9</title>
+            <pubDate>Tue, 31 Mar 2026 23:00:00 +0800</pubDate>
+            <sparkle:version>1.0.9</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>Improvements</h2>
+                <ul>
+                    <li>CodePilot desktop app support &mdash; session cards now persist correctly across conversation turns</li>
+                    <li>Cleaner display for CodePilot conversations (no internal metadata shown)</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed Codex CLI hooks setup being blocked by outdated CLI installations</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.9/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.9/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.9/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.9/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.9.dmg"
+                sparkle:edSignature="pY9fO7EeTsqV0/f4FwxflenQg02QGhRSd71eUVPO3X6vV9moEtf8iTOHGmr9I355YJp4DOUkmhhXz0396a9YBw=="
+                length="16959725"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.8</title>
             <pubDate>Mon, 31 Mar 2026 14:45:00 +0800</pubDate>
             <sparkle:version>1.0.8</sparkle:version>
