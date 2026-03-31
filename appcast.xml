@@ -7,6 +7,49 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.7</title>
+            <pubDate>Tue, 31 Mar 2026 09:05:00 +0800</pubDate>
+            <sparkle:version>1.0.7</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>New Features</h2>
+                <ul>
+                    <li>Quick mute toggle in expanded panel header</li>
+                    <li>Auto-hide notch when no active sessions (Settings → General)</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Early adopter purchase button in Settings (tap to buy at your locked price)</li>
+                    <li>Smarter Codex Desktop session cleanup</li>
+                    <li>Settings fully localized (Japanese, Korean, Simplified Chinese)</li>
+                    <li>Reduced memory usage and background CPU activity</li>
+                    <li>Refined pixel art glow effects and idle animations</li>
+                    <li>Consistent typography across all panels</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Checkout page now matches your system language</li>
+                    <li>Fixed rare sound engine crash</li>
+                    <li>Fixed auto-hide not fading the notch pill</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.7/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.7/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.7/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.7/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.7.dmg"
+                sparkle:edSignature="auNciBZsQ6Z1ZrKLWTQ1irwfLuecAaYpzt8ccmEenG/AvZUD1ZTj7Kmykltu/OSJgZv27/ZiA3B/NfHvJGmICw=="
+                length="16681603"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.6</title>
             <pubDate>Sun, 30 Mar 2026 16:40:00 +0800</pubDate>
             <sparkle:version>1.0.6</sparkle:version>
