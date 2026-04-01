@@ -7,6 +7,37 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.12</title>
+            <pubDate>Tue, 01 Apr 2026 17:53:23 +0800</pubDate>
+            <sparkle:version>1.0.12</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Improved Codex session stability with faster recovery from missing events</li>
+                    <li>Checkout page now displays in the correct language based on your system locale</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed payment links occasionally not opening when clicked</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.12/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.12/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.12/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.12/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.12.dmg"
+                sparkle:edSignature="d8NUDqKiJbgK1hIjlrfO5Gkuyr8dgaX7551O+2JI1iEG9GDmyjS1XLLQNRvdW3DKDr4v+6uQT6FqpGXHiT5pCA=="
+                length="14760325"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.11</title>
             <pubDate>Wed, 01 Apr 2026 14:02:36 +0800</pubDate>
             <sparkle:version>1.0.11</sparkle:version>
