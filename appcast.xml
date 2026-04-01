@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.10</title>
+            <pubDate>Wed, 01 Apr 2026 18:00:00 +0800</pubDate>
+            <sparkle:version>1.0.10</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>Verified Trial System</h2>
+                <p>A server-authoritative trial system with hardware-bound resolution (beta).</p>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Better network resilience — new users can start trial immediately even when offline (24h grace)</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Cross-space window jump (VS Code) — fixed terminal focus not switching to the correct macOS Space</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.10/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.10/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.10/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.10/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v1.0.10/Vibe-Island-1.0.10.dmg"
+                sparkle:edSignature="06ppgpwkF5uB3tz+qIRF1g1/RTcDjbtpk7ZJHgsI6Q9RbEVU8dGEeXtudLUsAa28OlxaGkuueR3H1fTBHen4CA=="
+                length="17068705"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.9</title>
             <pubDate>Tue, 31 Mar 2026 23:00:00 +0800</pubDate>
             <sparkle:version>1.0.9</sparkle:version>
