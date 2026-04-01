@@ -7,6 +7,33 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.11</title>
+            <pubDate>Wed, 01 Apr 2026 14:02:36 +0800</pubDate>
+            <sparkle:version>1.0.11</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+
+            <description><![CDATA[
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Enhanced security and stability</li>
+                    <li>Improved audio playback reliability when switching output devices (headphones, speakers, etc.)</li>
+                </ul>
+            ]]></description>
+
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.11/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.11/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.11/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.11/ko.html</sparkle:releaseNotesLink>
+
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.11.dmg"
+                sparkle:edSignature="AV4HBmkQRmPuCwOtQEZfoc0rFw0wIR4h3ogB78ZUfTEmAww/r7/myDfH7XYjUl+bzoPSDvyxjXyrFokBfMKaCg=="
+                length="14743837"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.10</title>
             <pubDate>Wed, 01 Apr 2026 18:00:00 +0800</pubDate>
             <sparkle:version>1.0.10</sparkle:version>
