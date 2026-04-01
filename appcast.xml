@@ -33,7 +33,7 @@
             <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.10/ko.html</sparkle:releaseNotesLink>
 
             <enclosure
-                url="https://dl.vibeisland.app/Vibe-Island-1.0.10.dmg"
+                url="https://github.com/edwluo/vibe-island-updates/releases/download/v1.0.10/Vibe-Island-1.0.10.dmg"
                 sparkle:edSignature="06ppgpwkMvGvJ8uX6q2p2S2222222222222222222222222222222222222222222222222222222222222222"
                 length="17068705"
                 type="application/octet-stream" />
