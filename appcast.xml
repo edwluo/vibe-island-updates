@@ -6,7 +6,46 @@
         <description>Vibe Island - macOS Notch panel for Claude Code</description>
         <language>en</language>
 
-        <!-- v1.0.17 temporarily pulled for hotfix -->
+        <item>
+            <title>Version 1.0.18</title>
+            <pubDate>Fri, 03 Apr 2026 22:49:29 +0800</pubDate>
+            <sparkle:version>1.0.18</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li>CodeBuddy CLI status monitoring support</li>
+                    <li>Custom Claude Code config path support for enterprise forks</li>
+                    <li>Report Bug button in Settings for easier issue reporting</li>
+                    <li>Improved post-purchase onboarding with intent-based layout and collapsible license key input</li>
+                    <li>Usage indicator: toggle between "used" and "remaining" display mode in Settings</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Softer default notification volume</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed CLI tools (Claude Code, OpenCode, etc.) being invisible when running inside Cursor terminal</li>
+                    <li>Fixed Cursor terminal sessions incorrectly showing as "VS Code"</li>
+                    <li>Fixed license activation limit lockout when deactivation fails</li>
+                    <li>Fixed session cleanup when host IDE (VS Code, Cursor, etc.) closes</li>
+                    <li>Fixed usage tip not dismissing after activation</li>
+                    <li>Fixed Notch panel hover detection at screen top edge</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.18/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.18/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.18/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.18/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.18.dmg"
+                sparkle:edSignature="vXB5pPjkupEd7g2fyLDhZKPq13WaIyWyv9TJ/jsC5pgsuC+TLgeBaH/e9mk06LiJCSILdDDd+/fUeeU6e3FOCA=="
+                length="15115147"
+                type="application/octet-stream" />
+        </item>
 
         <item>
             <title>Version 1.0.16</title>
