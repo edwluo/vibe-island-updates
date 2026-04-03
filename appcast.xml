@@ -7,6 +7,45 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.17</title>
+            <pubDate>Thu, 03 Apr 2026 21:16:21 +0800</pubDate>
+            <sparkle:version>1.0.17</sparkle:version>
+            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li>CodeBuddy CLI status monitoring support</li>
+                    <li>Custom Claude Code config path support for enterprise forks</li>
+                    <li>Report Bug button in Settings for easier issue reporting</li>
+                    <li>Improved post-purchase onboarding with intent-based layout and collapsible license key input</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Softer default notification volume</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed CLI tools (Claude Code, OpenCode, etc.) being invisible when running inside Cursor terminal</li>
+                    <li>Fixed Cursor terminal sessions incorrectly showing as "VS Code"</li>
+                    <li>Fixed license activation limit lockout when deactivation fails</li>
+                    <li>Fixed session cleanup when host IDE (VS Code, Cursor, etc.) closes</li>
+                    <li>Fixed usage tip not dismissing after activation</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.17/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.17/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.17/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.17/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.17.dmg"
+                sparkle:edSignature="n+oLwVfu/Jtu5+HfWcDOV6HDrNbz3EviesmnelZaU/AIfcAbnCx76Xrib6QEkQ/auj/DZy26d+DBgTBVHiKNAg=="
+                length="15111240"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.16</title>
             <pubDate>Fri, 03 Apr 2026 10:34:59 +0800</pubDate>
             <sparkle:version>1.0.16</sparkle:version>
