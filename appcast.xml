@@ -13,21 +13,10 @@
             <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:minimumAutoupdateVersion>1.0.16</sparkle:minimumAutoupdateVersion>
-            <description><![CDATA[
-                <h2>What's New</h2>
-                <ul>
-                    <li><b>Cursor Agent</b>: YOLO mode auto-detect, orphan session fix, response display</li>
-                    <li><b>Usage Indicator</b>: Claude / Codex API usage with brand icons (opt-in via Settings → General)</li>
-                    <li><b>GitHub Copilot</b>: CLI hook support</li>
-                    <li><b>Community</b>: Unified WeChat + Feishu + Discord community sheet</li>
-                    <li><b>Settings</b>: All 8 CLI tools displayed with per-CLI uninstall buttons</li>
-                </ul>
-                <h2>Fixes</h2>
-                <ul>
-                    <li>Codex rate limit display now handles both time formats</li>
-                    <li>Improved license security and offline validation</li>
-                </ul>
-            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://edwluo.github.io/vibe-island-updates/release-notes/1.0.16/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://edwluo.github.io/vibe-island-updates/release-notes/1.0.16/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://edwluo.github.io/vibe-island-updates/release-notes/1.0.16/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://edwluo.github.io/vibe-island-updates/release-notes/1.0.16/ko.html</sparkle:releaseNotesLink>
             <enclosure
                 url="https://github.com/edwluo/vibe-island-updates/releases/download/v1.0.16/VibeIsland-1.0.16.dmg"
                 sparkle:edSignature="uyOjv8KskCFuFBw/wROUYqqYJBPhyve12Bgft2CJtXXqLlKBOjPJLk6Z7YAIcy7mvExScyfqHPqCbNNmtBQaDA=="
