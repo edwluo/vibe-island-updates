@@ -17,7 +17,7 @@
                 <h2>What's New</h2>
                 <ul>
                     <li><b>Cursor Agent</b>: YOLO mode auto-detect, orphan session fix, response display</li>
-                    <li><b>Usage Indicator</b>: Multi-provider API usage with brand icons (opt-in via Settings → General)</li>
+                    <li><b>Usage Indicator</b>: Claude / Codex API usage with brand icons (opt-in via Settings → General)</li>
                     <li><b>GitHub Copilot</b>: CLI hook support</li>
                     <li><b>Community</b>: Unified WeChat + Feishu + Discord community sheet</li>
                     <li><b>Settings</b>: All 8 CLI tools displayed with per-CLI uninstall buttons</li>
