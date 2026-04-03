@@ -12,10 +12,15 @@
             <sparkle:version>1.0.16</sparkle:version>
             <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:minimumAutoupdateVersion>1.0.16</sparkle:minimumAutoupdateVersion>
             <description><![CDATA[
-                <h2>Improvements</h2>
+                <h2>What's New</h2>
                 <ul>
-                    <li>Stability and performance updates.</li>
+                    <li>Community: WeChat + Feishu + Discord unified community sheet</li>
+                    <li>Usage: API usage indicator (opt-in via Settings)</li>
+                    <li>Copilot: GitHub Copilot CLI hook support</li>
+                    <li>Cursor: YOLO mode auto-detect + orphan session fix</li>
+                    <li>Security: Enhanced license protection</li>
                 </ul>
             ]]></description>
             <enclosure
