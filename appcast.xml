@@ -7,6 +7,46 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.19</title>
+            <pubDate>Sat, 05 Apr 2026 07:14:55 +0800</pubDate>
+            <sparkle:version>1.0.19</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li>WezTerm and Kaku terminal support with precise tab and pane navigation</li>
+                    <li>Screen switch guide for external monitor users</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Codex monitoring toggle: fully disable for zero overhead when not needed</li>
+                    <li>Smoother click-through in the area below the notch panel</li>
+                    <li>More reliable Ghostty terminal navigation</li>
+                    <li>Enhanced Codex approval detection stability</li>
+                    <li>More accurate hook status display in Settings</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed CodeBuddy session summary extraction</li>
+                    <li>Fixed phantom sessions from internal probes</li>
+                    <li>Fixed panel sometimes collapsing immediately after hover expand</li>
+                    <li>Faster permission approval response</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.19/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.19/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.19/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.19/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.19.dmg"
+                sparkle:edSignature="ACDVYkWvKzyIQz70RrWuQ5iTAQ64Arq2GnCe+zTy09yDbeZaZ/kunVVY8VCpHYkPdszAHCcnZY8ZJoBTkcGZBA=="
+                length="15257706"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.18</title>
             <pubDate>Fri, 03 Apr 2026 22:49:29 +0800</pubDate>
             <sparkle:version>1.0.18</sparkle:version>
