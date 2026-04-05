@@ -7,6 +7,35 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.20</title>
+            <pubDate>Sun, 06 Apr 2026 05:34:35 +0800</pubDate>
+            <sparkle:version>1.0.20</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Improved Codex Desktop stability. If crashes persist, disable approval detection in Settings > Labs</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed Cursor sessions and approval cards briefly flashing in the notch panel</li>
+                    <li>Improved overall stability</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.20/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.20/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.20/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.20/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.20.dmg"
+                sparkle:edSignature="gPiF6cq/6juJ2rLx/8pQLOd9eC8D8Rm2uds91Gsx6in43iOKqY0UCbvKm6HLgDR+ATfx6mIHb7F85mBgzU7oCA=="
+                length="15256825"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.19</title>
             <pubDate>Sat, 05 Apr 2026 07:14:55 +0800</pubDate>
             <sparkle:version>1.0.19</sparkle:version>
