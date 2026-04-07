@@ -7,6 +7,41 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.21</title>
+            <pubDate>Mon, 07 Apr 2026 08:19:16 +0800</pubDate>
+            <sparkle:version>1.0.21</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Usage limits now supports manual provider selection (Auto / Claude / Codex) and separates Anthropic and Z.ai as distinct providers</li>
+                    <li>Approval buttons now show dynamic shortcut hints matching your custom key bindings</li>
+                    <li>Individual shortcut keys can be reset to defaults without resetting all shortcuts</li>
+                    <li>Usage data is never discarded — stale data stays visible with an aging indicator until fresh data arrives</li>
+                    <li>Improved iTerm2 session matching for split panes</li>
+                    <li>Better compatibility with config files containing comments (JSONC) for Gemini CLI and Cursor</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed Cursor and CodeBuddy brand colors in tag pills</li>
+                    <li>Fixed keyboard shortcut responsiveness with CJK input methods</li>
+                    <li>Fixed force refresh not actually bypassing all caches for usage data</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.21/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.21/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.21/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.21/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.21.dmg"
+                sparkle:edSignature="tRFL19Pzm6JTLYJYxqsXkG8oWK2JzSO/I5T+QXsxfCvY2idciwcCPAzsSdUMzz5tnYkPVV2EBMzruZmFDhBEDA=="
+                length="15421752"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.20</title>
             <pubDate>Sun, 06 Apr 2026 05:34:35 +0800</pubDate>
             <sparkle:version>1.0.20</sparkle:version>
