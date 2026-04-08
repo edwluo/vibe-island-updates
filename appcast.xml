@@ -7,6 +7,47 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.22</title>
+            <pubDate>Thu, 09 Apr 2026 03:59:13 +0800</pubDate>
+            <sparkle:version>1.0.22</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li><b>Kiro CLI support</b> - Full hook integration with event translation, tool name mapping, and IDE auto-detection</li>
+                    <li><b>Right-click context menu</b> - Right-click the notch pill for quick access to Settings, Check for Updates, and Quit</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Complete uninstall option in Settings - About (removes all CLI hooks, IDE extensions, and launcher scripts)</li>
+                    <li>Improved Copilot CLI integration architecture</li>
+                    <li>Better Cursor Agent detection - distinguishes CLI mode from IDE mode</li>
+                    <li>Reduced hook deployment footprint</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed CLI hooks not restoring after app restart (Qoder, Copilot, Kiro)</li>
+                    <li>Fixed usage display appearing permanently dimmed with single provider</li>
+                    <li>Fixed stale Z.ai provider cache not clearing</li>
+                    <li>Fixed usage activation when no data source available</li>
+                    <li>Fixed usage error indicator not auto-dismissing</li>
+                    <li>Fixed usage silent degradation on cold start</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.22/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.22/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.22/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.22/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.22.dmg"
+                sparkle:edSignature="9Ve+6+iwWRY3jgwkFnoZP57DchddPn5/oGGIkPAEdHBgX8Q3KkfvziBofWrIGneeSYYkytuwb3EGd/bVE2nuCQ=="
+                length="15600877"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.21</title>
             <pubDate>Mon, 07 Apr 2026 08:19:16 +0800</pubDate>
             <sparkle:version>1.0.21</sparkle:version>
