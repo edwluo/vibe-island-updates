@@ -7,6 +7,45 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.23</title>
+            <pubDate>Thu, 10 Apr 2026 04:55:48 +0800</pubDate>
+            <sparkle:version>1.0.23</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li>Navigate directly to the right terminal session when clicking notifications from third-party CLI integrations</li>
+                    <li>GitHub Copilot CLI now shows tool details and question prompts in the Notch panel</li>
+                    <li>New option in Settings to control automatic terminal title configuration</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Dwell time setting now uses a clean dropdown picker instead of a slider</li>
+                    <li>Usage display works reliably for Codex-only users</li>
+                    <li>Quieter experience: auto-updates no longer play the launch sound on restart</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Settings window no longer falls behind other app windows</li>
+                    <li>Fixed dropdown menus not responding to clicks on multi-monitor setups</li>
+                    <li>Quit from the menu now works correctly</li>
+                    <li>Improved uninstall cleanup reliability</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.23/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.23/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.23/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.23/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.23.dmg"
+                sparkle:edSignature="itfKEqeBb1NDDwuP6qS7eFIUM6tmZcD2WCqDGAVShDSDChbEb+w1v7l7TWrEBRnEoRUb7a6pydI+gEoLh3xmCQ=="
+                length="15651753"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.22</title>
             <pubDate>Thu, 09 Apr 2026 03:59:13 +0800</pubDate>
             <sparkle:version>1.0.22</sparkle:version>
