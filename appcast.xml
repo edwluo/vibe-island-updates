@@ -7,6 +7,50 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.25</title>
+            <pubDate>Mon, 14 Apr 2026 08:26:48 +0800</pubDate>
+            <sparkle:version>1.0.25</sparkle:version>
+            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li><b>SSH Remote</b> (Beta) - Monitor Claude Code sessions on remote servers through SSH tunnels — deploy, connect, and manage from your Notch panel</li>
+                    <li><b>Kiro CLI support</b> (Beta) - Zero-config auto-setup with agent creation, permission prompts, and multi-agent name detection</li>
+                    <li><b>Amp CLI support</b> (Beta) - Sourcegraph Amp CLI integration</li>
+                    <li><b>Hermes CLI support</b> (Beta) - NousResearch Hermes agent integration</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Improved Warp terminal jump accuracy</li>
+                    <li>Ghostty cross-Space precise jump — reliable window switching across desktops</li>
+                    <li>Symlink-safe config writer protects dotfiles users</li>
+                    <li>MacBook Air pill bottom gap fix across all models</li>
+                    <li>External monitor auto-hide and fullscreen hide no longer mis-trigger on hover/click</li>
+                    <li>Enhanced security with runtime integrity checks</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed audio engine crash on idle shutdown (crash #43)</li>
+                    <li>Fixed Codex Desktop crash when unminimizing via Accessibility</li>
+                    <li>Fixed Settings panel briefly flashing on screen during prewarm</li>
+                    <li>Improved overall stability and performance</li>
+                </ul>
+                <p><em>These beta features are under active development. Stable release coming in v1.1.0.</em></p>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.25/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.25/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.25/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.25/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.25.dmg"
+                sparkle:edSignature="2fZm5HETV8YjCd6q8dyurGzge+B0UjaadSNqC6vlIA5G9P3L2yZIVmhPSTI/ZqLaYQksfRqu3j6hEDDjztjKCQ=="
+                length="18099127"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.24</title>
             <pubDate>Mon, 14 Apr 2026 04:13:36 +0800</pubDate>
             <sparkle:version>1.0.24</sparkle:version>
