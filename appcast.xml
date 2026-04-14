@@ -7,6 +7,42 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.26</title>
+            <pubDate>Mon, 14 Apr 2026 22:16:59 +0800</pubDate>
+            <sparkle:version>1.0.26</sparkle:version>
+            <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li>SSH Remote: macOS and FreeBSD remote support</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>SSH Remote: Better setup experience with guided prompts and host editing</li>
+                    <li>SSH Remote: Improved tunnel stability and CLI detection</li>
+                    <li>Codex: Reduced CPU usage during idle periods</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li>Fixed several SSH Remote connection and compatibility issues</li>
+                    <li>Fixed minor UI scroll bounce</li>
+                    <li>Update dialog now includes a retry button</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.26/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.26/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.26/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.26/ko.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.26.dmg"
+                sparkle:edSignature="c4pW3rd73ABb9F23JgCcrDvn8Vq/QeBeaoAvqotkZW1FY6MepP6FkdWV0s+SyhHVAWL8FCMi0CJ6767G/9BKAA=="
+                length="22456444"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.25</title>
             <pubDate>Mon, 14 Apr 2026 08:26:48 +0800</pubDate>
             <sparkle:version>1.0.25</sparkle:version>
