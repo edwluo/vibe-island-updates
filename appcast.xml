@@ -7,6 +7,55 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.27</title>
+            <pubDate>Fri, 17 Apr 2026 07:24:56 +0800</pubDate>
+            <sparkle:version>1.0.27</sparkle:version>
+            <sparkle:shortVersionString>1.0.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h2>New Features</h2>
+                <ul>
+                    <li><b>Quiet Hours</b> — mute sound effects during configured hours so overnight agent runs don't wake you up</li>
+                    <li><b>Follow Focus</b> — the notch can now jump to whichever display has your keyboard focus</li>
+                    <li><b>Kimi Code CLI</b> support (Moonshot AI) — session state, title, terminal jump, completion alerts, usage quota</li>
+                    <li><b>Enterprise plan</b> monthly spending limit now displayed in Usage</li>
+                    <li><b>French</b> localization (fr)</li>
+                    <li>Notch panel expands horizontally from the center with a smooth sweep animation when switching displays</li>
+                    <li>Click outside the notch to instantly dismiss completion toasts (optional toggle)</li>
+                </ul>
+                <h2>Improvements</h2>
+                <ul>
+                    <li>Redesigned Settings with a new Integrations tab, dedicated Usage pane, and configurable hover behavior</li>
+                    <li>Notch preview now renders your actual wallpaper as background</li>
+                    <li>Display preference persists across restarts using stable display UUIDs</li>
+                    <li>"Main Display" now correctly pins to the menu-bar screen</li>
+                    <li>Reduced CPU usage for Codex session monitoring</li>
+                </ul>
+                <h2>Fixes</h2>
+                <ul>
+                    <li><b>Cursor CLI over SSH</b>: fixed sessions getting stuck in "working" state after a turn completes. <b>If you use Cursor over SSH, open Settings → SSH Remote and click Redeploy on your hosts to activate this fix.</b></li>
+                    <li>SSH Remote: new <b>Manual Install</b> option for restricted networks where scp is blocked by corporate firewalls — Settings → SSH Remote → Manual install</li>
+                    <li>Warp terminal jump is now reliable across multiple tabs and split-pane layouts</li>
+                    <li>Pill no longer bounces off the notch when switching displays</li>
+                    <li>Enterprise extra-usage amount correctly shown in dollars</li>
+                    <li>Ghost rollout sessions from CodexBar CLI probes are filtered out</li>
+                    <li>SSH Remote stability: tunnels auto-reconnect after app restart, port-conflict rate-limiting, cleaner uninstall, legacy host hints accepted, manual tunnel commands stay in sync</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.27/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.27/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.27/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.27/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.27/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.27.dmg"
+                sparkle:edSignature="WyuFEqskWlNvmLg2DHKtviid/HdI3yiFcpj0AM+zQWUiEyCz+ZxJmBHc58aoCyykCIzdRcXQ/B/QayIAxXjMCg=="
+                length="22808836"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.26</title>
             <pubDate>Mon, 14 Apr 2026 22:16:59 +0800</pubDate>
             <sparkle:version>1.0.26</sparkle:version>
