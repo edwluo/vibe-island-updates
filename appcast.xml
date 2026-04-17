@@ -16,19 +16,19 @@
                 <!-- whats-new -->
                 <h3>New Features</h3>
                 <ul>
-                    <li><b>Quiet Hours</b>, <b>Follow Focus</b>, <b>Kimi Code CLI</b> (Moonshot AI)</li>
-                    <li><b>Enterprise</b> monthly limit in Usage, <b>French</b> localization</li>
+                    <li><b>Follow Focus</b> — notch follows your keyboard focus across displays</li>
+                    <li><b>Kimi Code CLI</b> support (Moonshot AI)</li>
+                    <li><b>French</b> localization</li>
                 </ul>
                 <h3>Improvements</h3>
                 <ul>
                     <li>Redesigned Settings with Integrations tab and Usage pane</li>
-                    <li>Notch preview uses actual wallpaper; lower CPU for Codex monitoring</li>
                 </ul>
                 <h3>Fixes</h3>
                 <ul>
                     <li><b>Cursor CLI over SSH</b>: fixed "working" hang. <b>SSH users: Redeploy from Settings → SSH Remote.</b></li>
                     <li>SSH Remote: new <b>Manual Install</b> for SCP-blocked networks</li>
-                    <li>Warp terminal jump, display switch pill bouncing, Enterprise usage display</li>
+                    <li>Warp terminal jump across tabs and split panes</li>
                 </ul>
                 <p><a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.27">Full release notes</a></p>
             ]]></description>
