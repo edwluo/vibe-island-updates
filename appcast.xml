@@ -14,13 +14,31 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <!-- whats-new -->
+                <h3>New Features</h3>
                 <ul>
-                    <li><b>New:</b> Quiet Hours, Follow Focus, Kimi Code CLI, Enterprise Usage, French</li>
-                    <li><b>Fixed:</b> Cursor CLI over SSH stuck in "working" — SSH users: redeploy from Settings → SSH Remote</li>
-                    <li><b>Fixed:</b> Warp terminal jump, display switch pill bouncing, Enterprise usage display</li>
-                    <li>New Manual Install for SCP-blocked networks, redesigned Settings</li>
+                    <li><b>Quiet Hours</b> — mute sounds during configured hours</li>
+                    <li><b>Follow Focus</b> — notch follows your keyboard focus across displays</li>
+                    <li><b>Kimi Code CLI</b> support (Moonshot AI)</li>
+                    <li><b>Enterprise plan</b> monthly spending limit in Usage</li>
+                    <li><b>French</b> localization</li>
                 </ul>
-                <p>Full release notes: <a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.27">v1.0.27 on GitHub</a></p>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Redesigned Settings with Integrations tab and configurable hover</li>
+                    <li>Notch preview uses your actual wallpaper</li>
+                    <li>Display preference persists across restarts</li>
+                    <li>Lower CPU usage for Codex session monitoring</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li><b>Cursor CLI over SSH</b>: fixed "working" hang. <b>SSH users: Redeploy from Settings → SSH Remote to activate.</b></li>
+                    <li>SSH Remote: new <b>Manual Install</b> for SCP-blocked networks</li>
+                    <li>Warp terminal jump across tabs and split panes</li>
+                    <li>Pill no longer bounces when switching displays</li>
+                    <li>Enterprise extra-usage amount now in dollars</li>
+                    <li>SSH Remote stability: auto-reconnect, rate-limiting, cleaner uninstall</li>
+                </ul>
+                <p><a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.27">Full release notes on GitHub</a></p>
             ]]></description>
             <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.27/en.html</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.27/zh-Hans.html</sparkle:releaseNotesLink>
