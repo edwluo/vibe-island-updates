@@ -14,34 +14,13 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <!-- whats-new -->
-                <h2>New Features</h2>
                 <ul>
-                    <li><b>Quiet Hours</b> — mute sound effects during configured hours so overnight agent runs don't wake you up</li>
-                    <li><b>Follow Focus</b> — the notch can now jump to whichever display has your keyboard focus</li>
-                    <li><b>Kimi Code CLI</b> support (Moonshot AI) — session state, title, terminal jump, completion alerts, usage quota</li>
-                    <li><b>Enterprise plan</b> monthly spending limit now displayed in Usage</li>
-                    <li><b>French</b> localization (fr)</li>
-                    <li>Notch panel expands horizontally from the center with a smooth sweep animation when switching displays</li>
-                    <li>Click outside the notch to instantly dismiss completion toasts (optional toggle)</li>
+                    <li><b>New:</b> Quiet Hours, Follow Focus, Kimi Code CLI, Enterprise Usage, French</li>
+                    <li><b>Fixed:</b> Cursor CLI over SSH stuck in "working" — SSH users: redeploy from Settings → SSH Remote</li>
+                    <li><b>Fixed:</b> Warp terminal jump, display switch pill bouncing, Enterprise usage display</li>
+                    <li>New Manual Install for SCP-blocked networks, redesigned Settings</li>
                 </ul>
-                <h2>Improvements</h2>
-                <ul>
-                    <li>Redesigned Settings with a new Integrations tab, dedicated Usage pane, and configurable hover behavior</li>
-                    <li>Notch preview now renders your actual wallpaper as background</li>
-                    <li>Display preference persists across restarts using stable display UUIDs</li>
-                    <li>"Main Display" now correctly pins to the menu-bar screen</li>
-                    <li>Reduced CPU usage for Codex session monitoring</li>
-                </ul>
-                <h2>Fixes</h2>
-                <ul>
-                    <li><b>Cursor CLI over SSH</b>: fixed sessions getting stuck in "working" state after a turn completes. <b>If you use Cursor over SSH, open Settings → SSH Remote and click Redeploy on your hosts to activate this fix.</b></li>
-                    <li>SSH Remote: new <b>Manual Install</b> option for restricted networks where scp is blocked by corporate firewalls — Settings → SSH Remote → Manual install</li>
-                    <li>Warp terminal jump is now reliable across multiple tabs and split-pane layouts</li>
-                    <li>Pill no longer bounces off the notch when switching displays</li>
-                    <li>Enterprise extra-usage amount correctly shown in dollars</li>
-                    <li>Ghost rollout sessions from CodexBar CLI probes are filtered out</li>
-                    <li>SSH Remote stability: tunnels auto-reconnect after app restart, port-conflict rate-limiting, cleaner uninstall, legacy host hints accepted, manual tunnel commands stay in sync</li>
-                </ul>
+                <p>Full release notes: <a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.27">v1.0.27 on GitHub</a></p>
             ]]></description>
             <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.27/en.html</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.27/zh-Hans.html</sparkle:releaseNotesLink>
