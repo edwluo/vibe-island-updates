@@ -16,29 +16,21 @@
                 <!-- whats-new -->
                 <h3>New Features</h3>
                 <ul>
-                    <li><b>Quiet Hours</b> — mute sounds during configured hours</li>
-                    <li><b>Follow Focus</b> — notch follows your keyboard focus across displays</li>
-                    <li><b>Kimi Code CLI</b> support (Moonshot AI)</li>
-                    <li><b>Enterprise plan</b> monthly spending limit in Usage</li>
-                    <li><b>French</b> localization</li>
+                    <li><b>Quiet Hours</b>, <b>Follow Focus</b>, <b>Kimi Code CLI</b> (Moonshot AI)</li>
+                    <li><b>Enterprise</b> monthly limit in Usage, <b>French</b> localization</li>
                 </ul>
                 <h3>Improvements</h3>
                 <ul>
-                    <li>Redesigned Settings with Integrations tab and configurable hover</li>
-                    <li>Notch preview uses your actual wallpaper</li>
-                    <li>Display preference persists across restarts</li>
-                    <li>Lower CPU usage for Codex session monitoring</li>
+                    <li>Redesigned Settings with Integrations tab and Usage pane</li>
+                    <li>Notch preview uses actual wallpaper; lower CPU for Codex monitoring</li>
                 </ul>
                 <h3>Fixes</h3>
                 <ul>
-                    <li><b>Cursor CLI over SSH</b>: fixed "working" hang. <b>SSH users: Redeploy from Settings → SSH Remote to activate.</b></li>
+                    <li><b>Cursor CLI over SSH</b>: fixed "working" hang. <b>SSH users: Redeploy from Settings → SSH Remote.</b></li>
                     <li>SSH Remote: new <b>Manual Install</b> for SCP-blocked networks</li>
-                    <li>Warp terminal jump across tabs and split panes</li>
-                    <li>Pill no longer bounces when switching displays</li>
-                    <li>Enterprise extra-usage amount now in dollars</li>
-                    <li>SSH Remote stability: auto-reconnect, rate-limiting, cleaner uninstall</li>
+                    <li>Warp terminal jump, display switch pill bouncing, Enterprise usage display</li>
                 </ul>
-                <p><a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.27">Full release notes on GitHub</a></p>
+                <p><a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.27">Full release notes</a></p>
             ]]></description>
             <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.27/en.html</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.27/zh-Hans.html</sparkle:releaseNotesLink>
