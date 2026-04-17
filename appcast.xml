@@ -16,6 +16,7 @@
                 <!-- whats-new -->
                 <h3>New Features</h3>
                 <ul>
+                    <li><b>Quiet Hours</b> — mute sounds during configured hours</li>
                     <li><b>Follow Focus</b> — notch follows your keyboard focus across displays</li>
                     <li><b>Kimi Code CLI</b> support (Moonshot AI)</li>
                     <li><b>French</b> localization</li>
