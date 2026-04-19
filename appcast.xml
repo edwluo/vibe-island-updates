@@ -16,19 +16,15 @@
                 <!-- whats-new -->
                 <h3>New Features</h3>
                 <ul>
-                    <li><b>Auto Mode support (Labs)</b> — Claude Code recently introduced Auto Mode upstream; flip the new Labs toggle and the Notch's Bypass button switches sessions into Auto Mode instead</li>
-                    <li><b>Built-in Bypass fallback</b> — our own auto-approve implementation that keeps the Bypass button working on Claude Code v2.1.110+ where the original <code>setMode</code> shortcut broke</li>
-                    <li><b>SSH Remote</b> detects outdated remote hooks and prompts a one-click upgrade, plus a manual install fallback when scp is blocked by your network</li>
+                    <li><b>Auto Mode support (Labs)</b> — Claude Code introduced Auto Mode upstream; flip the new Labs toggle and the Notch's Bypass button switches sessions into Auto Mode</li>
+                    <li><b>Built-in Bypass</b> — keeps the Bypass button working on Claude Code v2.1.110+ where the original <code>setMode</code> shortcut broke</li>
+                    <li><b>SSH Remote</b> detects outdated remote hooks and prompts a one-click upgrade, plus a manual install fallback when scp is blocked</li>
                     <li><b>Docker container setup guide</b> in Settings, with the <code>VIBE_ISLAND_HOST</code> environment variable</li>
                     <li><b>Kitty terminal precise jump</b> with a one-click setup wizard</li>
-                    <li><b>Z.ai (Zhipu)</b> is now always available as a usage provider</li>
                 </ul>
                 <h3>Improvements</h3>
                 <ul>
-                    <li>Compact mode now uses an asymmetric pill that adapts to active sessions</li>
                     <li>Codex auxiliary subagent activity is now hidden from the main session list</li>
-                    <li>Hook socket throughput hardened against congestion</li>
-                    <li>Lower idle CPU on Intel Macs from relaxed Codex polling</li>
                     <li>Warp activation is now more reliable</li>
                     <li>Pet no longer hides under the physical notch in minimized mode</li>
                 </ul>
@@ -36,7 +32,6 @@
                 <ul>
                     <li>Fixed update dialog overflow when release notes are long</li>
                     <li>Fixed false 'hook removed' notifications while editing settings.json</li>
-                    <li>Fixed leftover legacy notify entries causing duplicate Codex events at launch</li>
                 </ul>
                 <p><a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.28">Full release notes</a></p>
             ]]></description>
@@ -44,6 +39,7 @@
             <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.28/zh-Hans.html</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.28/ja.html</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.28/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.28/fr.html</sparkle:releaseNotesLink>
             <enclosure
                 url="https://dl.vibeisland.app/VibeIsland-1.0.28.dmg"
                 sparkle:edSignature="jiGWCS1slGPuofhhGB4IMruFHnol5GN7CRRhvjgZp4/+oSZGbMzm2cPTcTa17ZYKFGJ64Ddu9N+qmrKiTRAZCw=="
