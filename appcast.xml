@@ -7,6 +7,50 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.29</title>
+            <pubDate>Wed, 22 Apr 2026 06:13:16 +0800</pubDate>
+            <sparkle:version>1.0.29</sparkle:version>
+            <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li><b>Codex</b>: approve shell commands directly from the Notch</li>
+                    <li><b>Codex</b>: smart dispatch for shell approvals — keeps the approval in the terminal tab you're viewing</li>
+                    <li><b>Codex Desktop</b>: precise jump to the correct thread tab when clicking a session</li>
+                    <li><b>Copilot CLI</b>: approval + notification hook support</li>
+                    <li><b>Gemini CLI</b>: notification hook for approval reminders</li>
+                    <li><b>OpenCode</b>: @agent subagent recognition — no more completion noise from subagents</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Idle session cleanup timeout is now configurable (Settings → General → Dismissal)</li>
+                    <li>Large session lists render faster with virtualization</li>
+                    <li>Unified orange color for approval and question cards</li>
+                    <li>Session Switcher: ⌥G heartbeat summon + scroll-to-highlight</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Right-click menu no longer appears on empty toolbar slots</li>
+                    <li>Several build and signing improvements</li>
+                    <li>Better compatibility with restricted file systems</li>
+                </ul>
+                <p><a href="https://github.com/edwluo/vibe-island-updates/releases/tag/v1.0.29">Full release notes</a></p>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.29/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.29/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.29/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.29/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.29/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.29.dmg"
+                sparkle:edSignature="brWmHtxf8NLqr+CS7kbo7BuzI7zRlhmQLsLx2sc39Ty1u8hvzHV2RPMP9zrDfZbFUUGKArGLLWihwYYqaxiwDg=="
+                length="24167658"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.28</title>
             <pubDate>Sun, 19 Apr 2026 07:00:01 +0800</pubDate>
             <sparkle:version>1.0.28</sparkle:version>
