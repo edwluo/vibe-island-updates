@@ -2,6 +2,9 @@
 
 > macOS Notch status panel — a Dynamic Island experience for Claude Code, Codex, and Gemini CLI
 
+**Official site → [vibeisland.app](https://vibeisland.app)** · **Community & Feedback → [vibeislandapp/vibe-island](https://github.com/vibeislandapp/vibe-island)** · **Install → `brew install --cask vibe-island`**
+
+
 [![Download](https://img.shields.io/badge/Download-Latest-blue?style=for-the-badge&logo=apple)](https://dl.vibeisland.app/VibeIsland.dmg)
 [![macOS](https://img.shields.io/badge/macOS-14.0+-black?style=flat-square&logo=apple)](https://github.com/edwluo/vibe-island-updates/releases)
 [![Sparkle](https://img.shields.io/badge/Updates-Sparkle-orange?style=flat-square)](https://sparkle-project.org/)
