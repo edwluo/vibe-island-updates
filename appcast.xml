@@ -7,6 +7,53 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.30</title>
+            <pubDate>Mon, 27 Apr 2026 09:13:36 +0800</pubDate>
+            <sparkle:version>1.0.30</sparkle:version>
+            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>Custom sound files: drop in your own .wav/.mp3 per event</li>
+                    <li>Apple system sounds available in the per-event sound picker</li>
+                    <li>License Manage Devices portal shortcut in Settings</li>
+                    <li>Codex Desktop notifications now jump to the exact thread tab</li>
+                    <li>Optional memory restart guard in Labs settings</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Louder, more consistent sound effects across all events</li>
+                    <li>Codex Memory Writer / Chronicle helper threads hidden from the panel</li>
+                    <li>Smoother idle fade transitions</li>
+                    <li>Sleep-aware SSH health checks</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Resolved a session-list freeze regression introduced in v1.0.29</li>
+                    <li>Custom sound selections now persist across reloads</li>
+                    <li>Gemini terminal approvals no longer leave sessions stuck</li>
+                    <li>Kimi placeholder TOML conflict resolved</li>
+                    <li>Hook self-healing cleans up stale entries on startup</li>
+                    <li>Z.ai weekly usage numbers corrected</li>
+                    <li>TagPill width no longer jitters when the idle timer ticks</li>
+                    <li>Several Light Mode visibility fixes</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.30/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.30/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.30/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.30/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.30/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.30.dmg"
+                sparkle:edSignature="OtLlVWERYwFV7mG91lzi6ry6FSo+kNI9bDl5QBynm+BZhQcBpUB53MBCa4KLBooaeuIGjx8EXbauwlh+86+3CA=="
+                length="24742055"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.29</title>
             <pubDate>Wed, 22 Apr 2026 06:13:16 +0800</pubDate>
             <sparkle:version>1.0.29</sparkle:version>
