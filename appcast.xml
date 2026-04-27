@@ -21,11 +21,13 @@
                     <li>License Manage Devices portal shortcut in Settings</li>
                     <li>Codex Desktop notifications now jump to the exact thread tab</li>
                     <li>Optional memory restart guard in Labs settings</li>
+                    <li>Inline warnings for rate limit and API error states</li>
                 </ul>
                 <h3>Improvements</h3>
                 <ul>
+                    <li>Usage limits now unified across Claude, Codex, Z.ai, and Kimi</li>
                     <li>Louder, more consistent sound effects across all events</li>
-                    <li>Codex Memory Writer / Chronicle helper threads hidden from the panel</li>
+                    <li>Codex helper threads (Memory Writer, Chronicle) hidden from the panel</li>
                     <li>Smoother idle fade transitions</li>
                     <li>Sleep-aware SSH health checks</li>
                 </ul>
@@ -34,11 +36,10 @@
                     <li>Resolved a session-list freeze regression introduced in v1.0.29</li>
                     <li>Custom sound selections now persist across reloads</li>
                     <li>Gemini terminal approvals no longer leave sessions stuck</li>
-                    <li>Kimi placeholder TOML conflict resolved</li>
+                    <li>Kimi placeholder conflict resolved — CLI no longer crashes on startup</li>
                     <li>Hook self-healing cleans up stale entries on startup</li>
+                    <li>Improved hook reliability across machines and CLI configurations</li>
                     <li>Z.ai weekly usage numbers corrected</li>
-                    <li>TagPill width no longer jitters when the idle timer ticks</li>
-                    <li>Several Light Mode visibility fixes</li>
                 </ul>
             ]]></description>
             <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.30/en.html</sparkle:releaseNotesLink>
