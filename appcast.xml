@@ -7,6 +7,58 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.31</title>
+            <pubDate>Sun, 03 May 2026 04:46:36 +0800</pubDate>
+            <sparkle:version>1.0.31</sparkle:version>
+            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li><strong>Custom silence rules</strong> &mdash; define your own filters to mute noisy sessions, with hidden-directory smart suggestions and live match preview</li>
+                    <li><strong>Customizable collapse-panel shortcut</strong> &mdash; record any key combo in Settings</li>
+                    <li><strong>Idle reminder toggle</strong> &mdash; separate sound control, independent from approval and notification sounds</li>
+                    <li><strong>Panel size customization</strong> &mdash; new width slider (440&ndash;800pt), expanded height ranges, with live preview while dragging</li>
+                    <li><strong>Multi-window jumping for VS Code and Cursor</strong> &mdash; accurately opens the correct window when several are running</li>
+                    <li><strong>SSH remote</strong> improvements &mdash; hook config drift auto-detection prompts re-setup, friendlier error messages, actionable update notices</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li><strong>Better audio quality</strong> on AirPods and high-rate output devices &mdash; fixed 24 kHz aliasing</li>
+                    <li><strong>Settings window</strong> rebuilt &mdash; Mission Control, Space switching, and update dialogs now behave correctly</li>
+                    <li><strong>Notch alignment</strong> improved across all MacBook models, with a tuning slider for edge cases</li>
+                    <li><strong>Subagent and Agent Team filtering</strong> &mdash; properly silenced across sounds, panel expansion and notifications, with self-healing for stuck pending states</li>
+                    <li><strong>Bypass mode pill</strong> redesigned as a capsule for visual consistency</li>
+                    <li><strong>Diff line numbers</strong> wrap correctly for 4-digit values</li>
+                    <li><strong>Accurate Usage tracking</strong> &mdash; Claude Code, Kimi and Codex plan data refreshes more reliably with improved diagnostics</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Pinned Codex usage refresh</li>
+                    <li>AskUserQuestion preserves question text during bypass mode</li>
+                    <li>VS Code Extension sessions no longer prematurely cleaned at 5 minutes</li>
+                    <li>Bare letter shortcuts no longer collide with disabled bindings</li>
+                    <li>SSH tunnel surfaces real connection errors instead of fake "connected" state</li>
+                    <li>Z.ai legacy quota windows now display correctly</li>
+                    <li>Enterprise plan usage windows no longer falsely show 0%</li>
+                    <li>Agent Team mode now correctly mutes child agent sounds when enabled</li>
+                    <li>Gemini hook installation status correctly detected (no more false &#x2713;)</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.31/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.31/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.31/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.31/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.31/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.31.dmg"
+                sparkle:edSignature="4f/lEYVoneSfLgElRvi8dD2j3LcJv78+UwnsL7b49swGQCdW7GKDm4mdYsnA23YREJZO8yO9JQvL+jxLCv+tAQ=="
+                length="25096272"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.30</title>
             <pubDate>Mon, 27 Apr 2026 09:13:36 +0800</pubDate>
             <sparkle:version>1.0.30</sparkle:version>
