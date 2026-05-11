@@ -7,6 +7,54 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.33</title>
+            <pubDate>Tue, 12 May 2026 02:07:04 +0800</pubDate>
+            <sparkle:version>1.0.33</sparkle:version>
+            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li><strong>Session recap</strong> &mdash; Claude Code's away-summary surfaces directly on idle session cards</li>
+                    <li><strong>DeepSeek CLI integration</strong> &mdash; turn detection and completion notifications via TUI hooks</li>
+                    <li><strong>Pi extension integration</strong> &mdash; Pi joins the supported agent lineup with managed extension auto-install</li>
+                    <li><strong>Kimi coding plan auto-detection</strong> &mdash; when Claude Code is routed through a Kimi Anthropic-compatible endpoint, usage now shows Kimi quota automatically</li>
+                    <li><strong>Cursor external-approval hint</strong> &mdash; when Cursor is waiting on its own Ask-Every-Time or network-command approval, Notch highlights the session with a "Continue in Cursor" cue</li>
+                    <li><strong>Silence rules: first-prompt filters</strong> &mdash; mute sessions by matching the initial prompt text in addition to title / CLI / tool</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li><strong>Cursor 3.4.1 (Auto-Run Mode) compatibility</strong> &mdash; fully aligned with the renamed YOLO/allowlist semantics</li>
+                    <li><strong>OpenCode Desktop fully restored</strong> &mdash; monitoring, approvals, question replies, and event bridge all working again after the v1.14.37+ Electron migration</li>
+                    <li><strong>SSH remote stability</strong> &mdash; faster tunnel reconnect after drops, support for <code>ProxyJump</code> / <code>ProxyCommand</code> / <code>-F</code> config, fish-shell-friendly pre-clean, quoted-option parsing</li>
+                    <li><strong>Usage panel reliability</strong> &mdash; unified reset-time parsing across statusline cache and OAuth schemas, expired countdowns auto-hide, OAuth refresh cooldown tightened 5min &rarr; 2min</li>
+                    <li><strong>z.ai weekly quota</strong> &mdash; correctly decoded and per-provider refresh cadence independent of others</li>
+                    <li><strong>VS Code / Cursor jumping</strong> &mdash; installed extensions reconciled across forks so jumps land on the right window</li>
+                    <li><strong>Qwen Code, Warp</strong> &mdash; hook toggle refresh, foreground-only active-pane lookup</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Cursor allowlist regression where allowlist mode was incorrectly treated as YOLO mode</li>
+                    <li>SSH port collision guard against killing foreign processes holding the same port</li>
+                    <li>OpenCode plugin port discovery now rejects non-OpenCode local servers</li>
+                    <li>Always-allow approvals on OpenCode</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.33/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.33/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.33/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.33/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.33/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.33.dmg"
+                sparkle:edSignature="5fv4EszA2l5Cj8xHfE9NgFMMfW6X/YxWCWAGUYJ6yHjfvi0D0rm51gnPf06nNyMiJvcBMr/LFIVRq6eqvg80AA=="
+                length="25474003"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.32</title>
             <pubDate>Sun, 03 May 2026 14:47:00 +0800</pubDate>
             <sparkle:version>1.0.32</sparkle:version>
