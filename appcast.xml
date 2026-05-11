@@ -22,6 +22,7 @@
                     <li><strong>Kimi coding plan auto-detection</strong> &mdash; when Claude Code is routed through a Kimi Anthropic-compatible endpoint, usage now shows Kimi quota automatically</li>
                     <li><strong>Cursor external-approval hint</strong> &mdash; when Cursor is waiting on its own Ask-Every-Time or network-command approval, Notch highlights the session with a "Continue in Cursor" cue</li>
                     <li><strong>Silence rules: first-prompt filters</strong> &mdash; mute sessions by matching the initial prompt text in addition to title / CLI / tool</li>
+                    <li><strong>Codex hook trust authorization</strong> &mdash; one-tap authorize Vibe Island hooks when Codex 0.129+ marks them as untrusted</li>
                 </ul>
                 <h3>Improvements</h3>
                 <ul>
