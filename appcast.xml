@@ -7,6 +7,55 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.34</title>
+            <pubDate>Fri, 22 May 2026 07:46:39 +0800</pubDate>
+            <sparkle:version>1.0.34</sparkle:version>
+            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>Antigravity CLI support</li>
+                    <li>Tencent WorkBuddy support</li>
+                    <li>Update Control redesign. Pick between Notify me, manual checks, or automatic install. The pill reads "Update" when one is available</li>
+                    <li>AskUserQuestion wizard handles multi-question prompts with pagination and keyboard shortcuts</li>
+                    <li>Codex usage limit detection. The panel now shows when you've hit your quota</li>
+                    <li>One switch to toggle every global keyboard shortcut off; reverse mode if you keep colliding with the default keys</li>
+                    <li>Silence Rules match by prompt text or by which app launched the CLI</li>
+                    <li>Zellij pane jump support</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Warp jumps land on the right tab and pane even after the binding moves between windows</li>
+                    <li>VS Code and Cursor windows focus faster on jump</li>
+                    <li>DeepSeek TUI approval prompts show up in the notch panel</li>
+                    <li>Codex hook trust banner is dismissible. When trust fails it points you at <code>/hooks</code> instead of looping retries</li>
+                    <li>Cursor subagent workers embed under their parent session</li>
+                    <li>OpenCode subagent sessions nest correctly under the parent task</li>
+                    <li>Codex Desktop reveals are now per-thread aware. Viewing thread A no longer hides a completion or warning from thread B</li>
+                    <li>Hermes plugin install and detection respect the active profile</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Cleared leftover status warnings and recap text that could linger from a previous turn</li>
+                    <li>Terminal title writes work under Claude Code 2.1.139+ CTTY isolation</li>
+                    <li>Copilot CLI permission and question prompts survive tool-cleanup events</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.34/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.34/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.34/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.34/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.34/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.34.dmg"
+                sparkle:edSignature="JMArUHq3wcTtDEINhmNjvdZpcpFjkSjxQkSxfPQk2OmyyHy6CR5tQ8jPS6RcOXrhRrs9osm21Wti+hV2J/g0Bg=="
+                length="26315380"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.33</title>
             <pubDate>Tue, 12 May 2026 02:07:04 +0800</pubDate>
             <sparkle:version>1.0.33</sparkle:version>
