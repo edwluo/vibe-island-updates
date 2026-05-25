@@ -7,6 +7,31 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.35</title>
+            <pubDate>Tue, 26 May 2026 05:32:18 +0800</pubDate>
+            <sparkle:version>1.0.35</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed a crash that could occur after waking your Mac from sleep</li>
+                    <li>Fixed usage display occasionally getting stuck on "temporarily unavailable"</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.35/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.35/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.35/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.35/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.35/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.35.dmg"
+                sparkle:edSignature="zj5iF/ID2OHLoOn9N5kzLhsfZTOG7DMmXNmiIkrHPI6cIYBMMMagwRa2yiKtBBaaJPrdDfhq87VEWHffW+HABg=="
+                length="26311520"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.34</title>
             <pubDate>Fri, 22 May 2026 07:46:39 +0800</pubDate>
             <sparkle:version>1.0.34</sparkle:version>
