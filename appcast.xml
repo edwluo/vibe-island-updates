@@ -7,6 +7,33 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.36</title>
+            <pubDate>Tue, 26 May 2026 18:05:22 +0800</pubDate>
+            <sparkle:version>1.0.36</sparkle:version>
+            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:criticalUpdate sparkle:version="1.0.36"/>
+            <description><![CDATA[
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Improved update reliability so new versions install correctly</li>
+                    <li>Fixed a crash that could occur after waking your Mac from sleep</li>
+                    <li>Fixed usage display occasionally getting stuck</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.36/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.36/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.36/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.36/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.36/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.36.dmg"
+                sparkle:edSignature="w3OHXKZINzS2qKevQz7+1Asvqc+KQzkoqanra4HIsVenoYjBvxfyWt92x4Himm7Fq0yi2rDQHUPTrBrrGlxKAA=="
+                length="26315414"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.35</title>
             <pubDate>Tue, 26 May 2026 05:32:18 +0800</pubDate>
             <sparkle:version>1.0.35</sparkle:version>
