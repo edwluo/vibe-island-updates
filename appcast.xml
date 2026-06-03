@@ -12,6 +12,7 @@
             <sparkle:version>1.0.37</sparkle:version>
             <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:criticalUpdate sparkle:version="1.0.37"/>
             <description><![CDATA[
                 <!-- whats-new -->
                 <h3>Improvements</h3>
