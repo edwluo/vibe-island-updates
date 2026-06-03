@@ -16,7 +16,9 @@
             <description><![CDATA[
                 <h3>Beta</h3>
                 <ul>
-                    <li>Internal beta build for update-pipeline verification.</li>
+                    <li>IDE extensions now auto-upgrade on launch, removing the first click-to-jump delay after an app update.</li>
+                    <li>Added a License recovery flow for activation-limit and re-activation cases.</li>
+                    <li>Stability improvements.</li>
                 </ul>
             ]]></description>
             <enclosure
