@@ -7,6 +7,47 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.37</title>
+            <pubDate>Wed, 03 Jun 2026 23:23:17 +0800</pubDate>
+            <sparkle:version>1.0.37</sparkle:version>
+            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Warp: more reliable click-to-jump — now uses Warp's real pane identity instead of simulated keystrokes</li>
+                    <li>VS Code &amp; Cursor: clicking a notification now focuses the exact integrated terminal tab, not just the window</li>
+                    <li>tmux: click-to-jump now works across multiple sessions, not just a single one</li>
+                    <li>VS Code &amp; Cursor: more accurate jump routing when multiple windows are open</li>
+                    <li>More reliable SSH Remote deployment</li>
+                    <li>Improved Codex stability — subagents, completion alerts, and approval handling</li>
+                    <li>Added support for custom Codex configuration paths</li>
+                    <li>Keyboard shortcuts now respect non-QWERTY keyboard layouts</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed background session alerts being missed when you're focused on a different terminal tab or split</li>
+                    <li>Fixed the panel flickering or collapsing right after hover when no sessions were active</li>
+                    <li>Fixed approval cards occasionally getting stuck after a task finished</li>
+                    <li>Fixed Vibe Island occasionally taking over audio output when idle (for example, AirPods switching back to your Mac)</li>
+                    <li>Fixed the update indicator sometimes not appearing and the manual update check not responding</li>
+                    <li>Improved overall stability and crash prevention</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.37/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.37/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.37/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.37/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.37/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.37.dmg"
+                sparkle:edSignature="3OaH/iEUdXAAEvBiUiVGMwTGKnK72esJXRo0D7KDRRshTo1kAbNcfe9YqHWdYR9gwcpMqZ9R6FDxsNvk+v3BAw=="
+                length="26454593"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.36</title>
             <pubDate>Tue, 26 May 2026 18:05:22 +0800</pubDate>
             <sparkle:version>1.0.36</sparkle:version>
