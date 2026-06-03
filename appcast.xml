@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.38-beta.1</title>
+            <pubDate>Thu, 04 Jun 2026 04:30:21 +0800</pubDate>
+            <sparkle:version>1.0.38-beta.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.38-beta.1</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Beta</h3>
+                <ul>
+                    <li>Internal beta build for update-pipeline verification.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.38-beta.1.dmg"
+                sparkle:edSignature="V3B+ko4uVANL6xybgGUTYsxKF4P/oyKqQc0qUhsYWACGjCmwo9LDIoWo1Jj+b5iDZQv0BiSWFQa6o42MRhKPBA=="
+                length="26474008"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.37</title>
             <pubDate>Wed, 03 Jun 2026 23:23:17 +0800</pubDate>
             <sparkle:version>1.0.37</sparkle:version>
