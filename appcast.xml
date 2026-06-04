@@ -228,9 +228,9 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <!-- whats-new -->
-                <h3>Hotfix Release</h3>
+                <h3>Highlights</h3>
                 <ul>
-                    <li>Emergency patch for two regressions in v1.0.31 &mdash; usage data refresh stalls for users running both Claude and Codex, and multi-window jumping opening the wrong VS Code window</li>
+                    <li>Fixes for two issues introduced in v1.0.31 &mdash; usage data refresh stalls for users running both Claude and Codex, and multi-window jumping opening the wrong VS Code window</li>
                 </ul>
                 <h3>New Features</h3>
                 <ul>
@@ -557,7 +557,7 @@
                     <li>Symlink-safe config writer protects dotfiles users</li>
                     <li>MacBook Air pill bottom gap fix across all models</li>
                     <li>External monitor auto-hide and fullscreen hide no longer mis-trigger on hover/click</li>
-                    <li>Enhanced security with runtime integrity checks</li>
+                    <li>Improved overall stability and reliability</li>
                 </ul>
                 <h2>Fixes</h2>
                 <ul>
@@ -601,7 +601,7 @@
                     <li>Symlink-safe config writer protects dotfiles users</li>
                     <li>MacBook Air pill bottom gap fix across all models</li>
                     <li>External monitor auto-hide and fullscreen hide no longer mis-trigger on hover/click</li>
-                    <li>Enhanced security with runtime integrity checks</li>
+                    <li>Improved overall stability and reliability</li>
                 </ul>
                 <h2>Fixes</h2>
                 <ul>
@@ -875,7 +875,7 @@
             <description><![CDATA[
                 <h2>Improvements</h2>
                 <ul>
-                    <li>Enhanced security and stability</li>
+                    <li>Improved stability and reliability</li>
                 </ul>
             ]]></description>
 
@@ -896,7 +896,7 @@
             <description><![CDATA[
                 <h2>Improvements</h2>
                 <ul>
-                    <li>Enhanced security and stability</li>
+                    <li>Improved stability and reliability</li>
                 </ul>
             ]]></description>
 
@@ -917,7 +917,7 @@
             <description><![CDATA[
                 <h2>Improvements</h2>
                 <ul>
-                    <li>Enhanced security and stability</li>
+                    <li>Improved stability and reliability</li>
                 </ul>
             ]]></description>
 
@@ -969,7 +969,7 @@
             <description><![CDATA[
                 <h2>Improvements</h2>
                 <ul>
-                    <li>Enhanced security and stability</li>
+                    <li>Improved stability and reliability</li>
                     <li>Improved audio playback reliability when switching output devices (headphones, speakers, etc.)</li>
                 </ul>
             ]]></description>
@@ -2434,7 +2434,7 @@
                 <h2>Code Quality</h2>
                 <ul>
                     <li>Unified iTerm2 session ID normalization</li>
-                    <li>Hook scripts now use absolute paths for improved security</li>
+                    <li>Hook scripts now use absolute paths for better reliability</li>
                 </ul>
             ]]></description>
             <enclosure
@@ -2477,7 +2477,7 @@
             <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>Critical Fixes</h2>
+                <h2>Fixes</h2>
                 <ul>
                     <li>Fixed app not launching on macOS 14/15 (Universal Binary support)</li>
                     <li>Now supports both Apple Silicon and Intel Macs</li>
