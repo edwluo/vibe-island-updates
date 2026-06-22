@@ -7,6 +7,52 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.39</title>
+            <pubDate>Mon, 22 Jun 2026 10:21:49 +0800</pubDate>
+            <sparkle:version>1.0.39</sparkle:version>
+            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>New agent integrations: Oh My Pi, ZCode (ZhipuAI), Trae, MiMoCode, Kimi Code, and Mistral Vibe</li>
+                    <li>Session cards now show a Git worktree / branch indicator</li>
+                    <li>Optional AI model name on session cards (off by default)</li>
+                    <li>New Glance completion mode — when a task finishes, the panel can stay collapsed with a subtle green dot instead of auto-expanding</li>
+                    <li>Subagent display controls for cleaner fan-out panels</li>
+                    <li>Precise jump for VS Code's native Claude extension — click a notification to land on the exact terminal tab</li>
+                    <li>Precise jump for remote Codex App sessions over SSH — clicking a notification takes you straight to the right thread (Remote Codex App sessions only)</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>SSH Remote now automatically reconnects after network changes or sleep, and supports passphrase-protected keys</li>
+                    <li>When you're already viewing a conversation in your IDE, Vibe Island no longer shows a duplicate completion notification for it</li>
+                    <li>Codex Auto Approve (auto-review) requests are now correctly detected and filtered, so they're no longer intercepted</li>
+                    <li>Simplified Codex approval settings (Approve here / Remind me / Hide)</li>
+                    <li>License recovery screen for seat-limit and activation issues</li>
+                    <li>Shows elapsed time while compacting</li>
+                    <li>Localization and overall performance improvements</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed completion cards not showing in VS Code / Cursor native extension sessions</li>
+                    <li>Improved CLI plugin detection and overall stability</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.39/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.39/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.39/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.39/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.39/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.39.dmg"
+                sparkle:edSignature="Gq/9402gWoc26VHdIFQ2A1tOkCBLbRK+TdpfMsySmM8vuh6QsAn6ZHzknghbu76pKb33H5h6PoAMcFNaWM2vBA=="
+                length="27054311"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.38-beta.1</title>
             <pubDate>Thu, 04 Jun 2026 04:30:21 +0800</pubDate>
             <sparkle:version>1.0.38-beta.1</sparkle:version>
