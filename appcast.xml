@@ -7,6 +7,57 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.40</title>
+            <pubDate>Tue, 30 Jun 2026 08:27:39 +0800</pubDate>
+            <sparkle:version>1.0.40</sparkle:version>
+            <sparkle:shortVersionString>1.0.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>Added support for Craft Agent</li>
+                    <li>Added precise jump support for the Otty terminal</li>
+                    <li>Added support for the Supacode terminal</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Session titles now show your actual prompt instead of injected agent prefixes</li>
+                    <li>Redesigned Codex approval modes with clearer options: Follow focus, Notify me, and Stay silent</li>
+                    <li>Sessions running in Git worktrees now appear correctly on the island</li>
+                    <li>More reliable OpenCode session tracking — no more duplicate or stuck-busy sessions</li>
+                    <li>Built-in Silence filters are now shown as clearer presets</li>
+                    <li>Better approval handling for ZCode and MiMoCode</li>
+                    <li>The collapsed pill now centers correctly on external displays</li>
+                    <li>More accurate Codex status with quieter background prompts</li>
+                    <li>Improved terminal jump accuracy across Ghostty, Zed, Supacode, and more</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Codex Auto Review is now always handled silently and no longer interrupts you with approval cards</li>
+                    <li>Fixed OpenCode showing repeated completion notifications during tool-heavy turns</li>
+                    <li>Fixed "Always allow" not being selectable for ZCode approvals</li>
+                    <li>Fixed a false "script not found" warning for status line scripts that use $HOME</li>
+                    <li>Fixed status line setup that could overwrite custom configurations</li>
+                    <li>Kimi Code sessions are no longer removed by mistake during interactive use</li>
+                    <li>Now automatically repairs broken Claude Code hook commands</li>
+                    <li>Fixed hook setup for Claude Code custom config paths</li>
+                    <li>Improved overall stability and reliability</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.40/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.40/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.40/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.40/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.40/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.40.dmg"
+                sparkle:edSignature="z5tMPIahDMMYnkxbRlCUpA/XCyQipebQAPOmIr92f38gbGlJrSMSxdm0hIgqhNSLph52bC+5adqbYQ/8eSamDQ=="
+                length="27490408"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.39</title>
             <pubDate>Mon, 22 Jun 2026 10:21:49 +0800</pubDate>
             <sparkle:version>1.0.39</sparkle:version>
