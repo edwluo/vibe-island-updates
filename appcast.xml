@@ -7,6 +7,54 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.41</title>
+            <pubDate>Mon, 13 Jul 2026 16:49:42 +0800</pubDate>
+            <sparkle:version>1.0.41</sparkle:version>
+            <sparkle:shortVersionString>1.0.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>Added support for the Grok Build CLI — xAI's terminal agent now shows up on the island with live status, its questions, and completion alerts</li>
+                    <li>Added support for Orca — jump straight to the right agent's pane inside Stably's agent IDE, even across parallel worktrees</li>
+                    <li>Added precise jump support for herdr — click a notification and land on the exact agent pane across its tabs and workspaces (tmux for AI agents)</li>
+                    <li>New Quiet scenes — automatically stay silent while a Focus mode is on, your screen is locked, or you're recording or sharing your screen</li>
+                    <li>Manage your activated Macs right in the app — see every device and deactivate ones you no longer use</li>
+                    <li>New setting to show or hide the project name on session cards</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>More reliable subagent lifecycle and status across agents — Claude, Codex, Antigravity, OpenCode, Pi and more</li>
+                    <li>Antigravity now surfaces when an agent needs your attention</li>
+                    <li>More precise window and tab jumping for WezTerm, Ghostty + tmux, and Otty</li>
+                    <li>Codex usage now follows upstream partial rate-limit windows</li>
+                    <li>Better hook detection and completion signals for DeepSeek and CodeWhale</li>
+                    <li>More reliable Hermes handling across multiple sessions</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Session cards reliably reappear after an app restart</li>
+                    <li>Fixed the Settings menu opening a blank window</li>
+                    <li>SSH Remote: fixed a reconnect loop that could lock up your Mac</li>
+                    <li>Cursor: fixed duplicate and ghost subagent sessions</li>
+                    <li>Fixed approval cards getting lost during parallel subagent runs</li>
+                    <li>Fixed a duplicate session after using Rewind in Claude Desktop</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.41/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.41/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.41/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.41/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.41/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.41.dmg"
+                sparkle:edSignature="/MnI+OxrUXQKWVU+EJr/obNExxPgUL8uIu4ELT5H9vilc/kVPmSmbz/OooeWo2xEQeCJF7IlmH2j9tVYrLbUBA=="
+                length="28960038"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.40</title>
             <pubDate>Tue, 30 Jun 2026 08:27:39 +0800</pubDate>
             <sparkle:version>1.0.40</sparkle:version>
