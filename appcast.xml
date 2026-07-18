@@ -7,6 +7,46 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.42</title>
+            <pubDate>Sat, 18 Jul 2026 13:56:53 +0800</pubDate>
+            <sparkle:version>1.0.42</sparkle:version>
+            <sparkle:shortVersionString>1.0.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>Added Superset terminal support: session cards jump precisely to the right workspace and terminal</li>
+                    <li>SSH Remote: new manual connection mode for hosts that use browser-based or enterprise SSO sign-in</li>
+                    <li>Added 4 new languages: Russian, Traditional Chinese, German, and Brazilian Portuguese — Vibe Island is now available in 9 languages</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Orca jump support now truly sticks — jumps self-heal when agent panes are recreated, instead of falling back to just activating the app</li>
+                    <li>SSH Remote reliability: isolated remote ports per host entry, clearer trust status for remote Codex hooks, and no more false "update hooks" prompts</li>
+                    <li>Plan review now offers Auto Mode, matching Claude Code's current permission modes</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed plan approvals in Claude Code changing your permission mode after review</li>
+                    <li>Fixed dismissed question prompts lingering on session cards</li>
+                    <li>Fixed thread jumps to Codex Desktop for SSH remote sessions</li>
+                    <li>More accurate approval routing for Codex sessions</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.42/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.42/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.42/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.42/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.42/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.42.dmg"
+                sparkle:edSignature="5GlVCc6RRAQTkxTxtgIorzgguncib4QB4h84twq1vXrQ69Z2At4AmFKTjmF36ZbQpdnxhVDeU0R8yrZFpK7PCQ=="
+                length="29441763"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.41</title>
             <pubDate>Mon, 13 Jul 2026 16:49:42 +0800</pubDate>
             <sparkle:version>1.0.41</sparkle:version>
