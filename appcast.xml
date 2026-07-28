@@ -7,6 +7,66 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.43</title>
+            <pubDate>Tue, 28 Jul 2026 12:50:12 +0800</pubDate>
+            <sparkle:version>1.0.43</sparkle:version>
+            <sparkle:shortVersionString>1.0.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>Usage now tracks Fable's own weekly limit with its own reset time, separate from your regular 5-hour and 7-day windows</li>
+                    <li>Usage now covers Grok, Cursor, Kimi, MiniMax, and Antigravity — and Claude Desktop now reports accurate usage too</li>
+                    <li>See your Codex reset card inventory in the Usage header — how many you have and the earliest expiry time</li>
+                    <li>Added Devin — CLI sessions get full lifecycle, approvals in the Notch, and precise terminal jumps; Desktop Cascade and Local sessions are tracked read-only</li>
+                    <li>Added Conductor — cards open the exact workspace and chat you were in, and blocking questions surface right on the card</li>
+                    <li>See which model and reasoning effort each agent is actually running — including sub-agents on a different model than their parent</li>
+                    <li>Qoder now covers the global CLI, Qoder CN, and QoderWork as separate integrations, with two-way approvals and questions on the global CLI</li>
+                    <li>Added Zap terminal support, and Kimi Code now works over SSH Remote</li>
+                    <li>When an agent asks a question, you can add your own answer instead of only picking from its options — multi-line, paste-friendly, and your draft survives collapsing the panel</li>
+                    <li>Follow-up reminders (off by default) — get pinged once about requests still waiting on you, or about finished work you haven't looked at</li>
+                    <li>Added Hebrew with right-to-left layout — Vibe Island is now available in 10 languages</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Clicking a card now switches to the Desktop the window is already on, instead of dragging it over to your current one — Terminal.app, WezTerm, and iTerm2</li>
+                    <li>Cursor Agent cards open the exact conversation, not just the Cursor window</li>
+                    <li>Paseo cards open the exact agent</li>
+                    <li>Warp Preview is now recognized on its own instead of being treated as regular Warp</li>
+                    <li>Preview Codex's native plan in Vibe Island, then jump back to Codex to act on it</li>
+                    <li>Automatic context compaction stays quiet now; manual compaction confirms once and gets out of the way</li>
+                    <li>Follow-up reminders understand what you've already read in Codex Desktop</li>
+                    <li>Session cards get a Show Tasks toggle — hide the task checklist when you don't need it</li>
+                    <li>Make expanded text bigger (up to 16pt) and hover-to-expand less eager (up to 0.8s) — both adjustable in Settings</li>
+                    <li>Reopen the current version's release notes anytime from Settings &gt; About</li>
+                    <li>SSH Remote now works with Codex installs outside the default location</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed terminal tab titles being overwritten — now only Ghostty gets a minimal title for precise jumps, and even that can be turned off</li>
+                    <li>Show Subagents now covers every kind of sub-agent — Agent Teams, Codex and OpenCode child sessions included</li>
+                    <li>Fixed background sub-agents never appearing on session cards, and finished ones lingering forever</li>
+                    <li>Agent Team teammates now group under their root session instead of scattering as separate cards, and finishing teammates no longer pull up the panel or play sounds</li>
+                    <li>Fixed Usage sub-options not appearing until you switched settings tabs and came back</li>
+                    <li>Fixed Claude Desktop Rewind leaving two cards for the same conversation</li>
+                    <li>Fixed Codex sub-agents inflating the session count, and approvals that arrived before their parent became unreachable</li>
+                    <li>Fixed AirPods being taken over even with sound turned off</li>
+                    <li>Fixed Plan Review showing an unrelated plan from another session</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.43/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.43/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.43/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.43/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.43/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.43.dmg"
+                sparkle:edSignature="CCOINKtmqAcP7p/zdzFJfiM2UExjEXfqsbM58G/UmrJLNM8IENsM8OV5d/rczYQg1YiyhNrxZj/n0X8jouKKAw=="
+                length="30828314"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.0.42</title>
             <pubDate>Sat, 18 Jul 2026 13:56:53 +0800</pubDate>
             <sparkle:version>1.0.42</sparkle:version>
