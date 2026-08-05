@@ -7,6 +7,71 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.44</title>
+            <pubDate>Thu, 06 Aug 2026 07:31:33 +0800</pubDate>
+            <sparkle:version>1.0.44</sparkle:version>
+            <sparkle:shortVersionString>1.0.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>Get Vibe Island alerts on your iPhone — know when an agent finishes, asks a question, or waits for approval, even away from your Mac. Delivered through the free Bark app, mirrors to a paired Apple Watch, with optional content encryption (Settings &gt; Notifications)</li>
+                    <li>Codex Desktop approvals, all in one place: approve connector and background-task requests from the island, answer Codex Desktop questions without switching apps, and granting Full Access now applies to the current turn immediately</li>
+                    <li>Claude Desktop cards now jump to the exact conversation you were in — not just the app — and it works over SSH Remote too</li>
+                    <li>Sessions run by Codex Desktop's app-server can jump straight to the Codex app (opt-in in Labs)</li>
+                    <li>Added QwenWork desktop support</li>
+                    <li>Add a Mac without leaving the app — hit your device limit, buy an extra seat from the License window, and the upgrade activates automatically after checkout</li>
+                    <li>Choose the app language in Settings &gt; General, independent of your system language</li>
+                    <li>SSH Remote hooks on your hosts now update themselves when the tunnel connects — no more outdated-hook prompts after updating Vibe Island</li>
+                    <li>Orca sessions over SSH Remote get precise jumps</li>
+                    <li>Ghostty tab titles can now show the project name, with formats you pick</li>
+                    <li>Updated Mistral Vibe integration for 2.21+</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Usage header rebuilt on one consistent layout — no more clipping on Macs with a physical notch</li>
+                    <li>Cursor usage shows its two real quota pools instead of a derived total</li>
+                    <li>Codex usage refreshes right after you switch accounts</li>
+                    <li>Deactivating a Mac now hands you the license key before the seat is released, so you can always re-activate later</li>
+                    <li>Clearer guidance when activation fails because the login keychain is locked</li>
+                    <li>Sound volume can be set lower than before</li>
+                    <li>Paseo cards find the installed CLI and approvals stay in sync with the owning agent</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Fixed Claude Desktop spawning ghost cards — old history conversations and zero-turn helper sessions no longer surface as live sessions, and duplicates collapse into one card</li>
+                    <li>Fixed false permission prompts appearing while Copilot CLI kept working on its own</li>
+                    <li>Fixed Fable weekly and per-model limits occasionally disappearing from Usage</li>
+                    <li>Fixed completion alerts firing while the session was still working</li>
+                    <li>Fixed sub-agents showing their parent's model and reasoning effort</li>
+                    <li>Fixed parallel Codex sub-agents sometimes never appearing on their session card</li>
+                    <li>Fixed regular sessions occasionally being misclassified as team members</li>
+                    <li>Jumping to Conductor now switches to the Space its window is on, instead of leaving it behind</li>
+                    <li>Fixed the panel refusing to hover-expand right after collapsing</li>
+                    <li>Fixed duplicate session cards for Open Design</li>
+                    <li>Fixed QoderWork cards showing opaque workspace ids and phantom approvals</li>
+                    <li>Fixed the startup sound playing when Vibe Island launches at login</li>
+                    <li>Fixed stray Codex popups triggered by the usage refresh</li>
+                    <li>Fixed clicks silently doing nothing for Claude Code Agent View sessions, and for SSH Remote sessions running inside remote tmux</li>
+                    <li>Fixed Warp jumps waking a Parallels Windows VM instead of focusing Warp when Parallels is installed</li>
+                    <li>Fixed installed hooks and settings being cleaned up when the app temporarily couldn't be found — after moving it, during updates, or on external drives</li>
+                    <li>Improved overall stability and reliability</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.44/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.44/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.44/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.44/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.44/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.44.dmg"
+                sparkle:edSignature="FwRDIChpqN9KLRoIU2MA2Yx8UjDmUoOPTOiRJry3lcpaJHSwmQY1lRznZT09YGGhUnjPXgn26mqZgUvhKE6iCQ=="
+                length="32172502"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.43</title>
             <pubDate>Tue, 28 Jul 2026 12:50:12 +0800</pubDate>
             <sparkle:version>1.0.43</sparkle:version>
