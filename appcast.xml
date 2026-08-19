@@ -31,7 +31,7 @@
                     <li><strong>Mobile notifications carry the whole request.</strong> You get the approval details and every question option, numbered, with more room for the preview.</li>
                     <li><strong>Bark self-hosted servers</strong> accept basic auth URLs.</li>
                     <li><strong>Cycle Usage providers from the keyboard</strong> with Mod+U.</li>
-                    <li><strong>Swap the agent text tag on session cards for the official agent icon.</strong></li>
+                    <li><strong>Agent and app tags on session cards can now show icons instead of text.</strong></li>
                     <li><strong>A separate switch for Claude credential access.</strong> Reading your usage means reading your Claude credentials. You can now turn off that one read and keep the usage display, the statusline and every other provider working.</li>
                 </ul>
                 <h3>Improvements</h3>
