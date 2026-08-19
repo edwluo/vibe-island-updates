@@ -7,6 +7,66 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.45</title>
+            <pubDate>Wed, 19 Aug 2026 09:10:15 +0800</pubDate>
+            <sparkle:version>1.0.45</sparkle:version>
+            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <h3>New Features</h3>
+                <ul>
+                    <li><strong>DeepSeek Harness (dsh) support.</strong> Sessions you run in the browser now show up on the island. There's nothing to set up; the plugin installs itself. Click a card and you land on that exact browser tab. You can also approve tools and answer questions from the island, and dsh's own interface keeps working the whole time. Answer on either side and the other one follows.</li>
+                    <li><strong>TraeCLI 2.0 approvals.</strong> Approve or deny right from the island.</li>
+                    <li><strong>Hermes over SSH.</strong> Sessions on remote hosts are tracked, and you get a notification when an approval is waiting.</li>
+                    <li><strong>Pi and OpenCode over SSH.</strong> Remote sessions now carry the same lifecycle, tool state and attention signals as local ones.</li>
+                    <li><strong>T3 Code support.</strong></li>
+                    <li><strong>Session recaps for Codex and Grok.</strong> Come back after a while and you can see what the session was doing.</li>
+                    <li><strong>Hyper.</strong> Cards jump to the exact session.</li>
+                    <li><strong>Claude Agent View.</strong> A background agent's card jumps to whichever terminal you're viewing it in, Ghostty or iTerm.</li>
+                    <li><strong>Detached tmux sessions</strong> now jump correctly.</li>
+                    <li><strong>WorkBuddy</strong> cards jump to the exact task conversation.</li>
+                    <li><strong>Codex conversations inside VS Code</strong> get precise focus.</li>
+                    <li><strong>Claude Desktop read state</strong> stays in sync.</li>
+                    <li><strong>Mobile notifications carry the whole request.</strong> You get the approval details and every question option, numbered, with more room for the preview.</li>
+                    <li><strong>Bark self-hosted servers</strong> accept basic auth URLs.</li>
+                    <li><strong>Cycle Usage providers from the keyboard</strong> with Mod+U.</li>
+                    <li><strong>Swap the agent text tag on session cards for the official agent icon.</strong></li>
+                    <li><strong>A separate switch for Claude credential access.</strong> Reading your usage means reading your Claude credentials. You can now turn off that one read and keep the usage display, the statusline and every other provider working.</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Licenses that drop, expire or fail to validate are handled better. Recovering one no longer sends you back to find your key.</li>
+                    <li>The update pill sits as a small icon and opens when you hover it, so your usage stays visible.</li>
+                    <li>Browser jumps and SSH deploys are faster, and so is startup.</li>
+                    <li>Session cards keep their model and effort labels after a restart.</li>
+                    <li>Switch accounts on Claude, Codex or Cursor and the usage display follows. Before, it could sit on the old account or drop out entirely.</li>
+                    <li>If the app is running from a read-only or temporary location, it now tells you why updates can't install and points you to /Applications.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Pressing a keyboard shortcut to jump could quit the app.</li>
+                    <li>Kimi Code sessions jumped to the wrong tab, and every one of them shared a single title.</li>
+                    <li>Activation problems always reported a network error instead of the real reason.</li>
+                    <li>Integrations could be switched on for products that were never installed.</li>
+                    <li>A jump across displays or Spaces could land nowhere.</li>
+                    <li>With several sessions open at once under herdr, only the most recently active card stayed on the island. The rest got pushed out.</li>
+                    <li>To show your Claude usage, Vibe Island reads the sign-in Claude Code stores on this Mac. In v1.0.34 through v1.0.44, if it wasn't under the expected name, the app asked macOS for keychain item names and tried the ones carrying the same Claude Code prefix. It never touched anything else, and nothing was saved or sent. The name is now worked out from your Claude config the same way Claude Code names it, so no list is requested. Reported by artemrootman.</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.45/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.45/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.45/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.45/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.45/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.45.dmg"
+                sparkle:edSignature="cpI3/Kp4W+6IYpneDrSXW1EwU1KegS3/LFp5QpB6vrWGvNGrdHde8orpm4W0eDDdjUUCMgeWxMb/t4E3esmqDA=="
+                length="28735043"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.44</title>
             <pubDate>Thu, 06 Aug 2026 07:31:33 +0800</pubDate>
             <sparkle:version>1.0.44</sparkle:version>
