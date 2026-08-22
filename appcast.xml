@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.46</title>
+            <pubDate>Sun, 23 Aug 2026 06:00:32 +0800</pubDate>
+            <sparkle:version>1.0.46</sparkle:version>
+            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Fixes</h3>
+                <ul>
+                    <li>SSH Remote setup now preserves your existing Hermes config on the remote host</li>
+                    <li>Codex Desktop cards recognize the current thread again</li>
+                    <li>Orca: jumping to a floating terminal no longer drags the main window along</li>
+                    <li>DeepSeek Harness: approvals, wizard answers and session cards are more reliable</li>
+                    <li>Bark self-hosted servers: the test notification now tells you what went wrong and follows redirects</li>
+                    <li>Claude usage keeps working after you switch Claude accounts</li>
+                    <li>Grok usage no longer disappears for focused sessions</li>
+                    <li>Usage respects your Claude auth route and provider pin</li>
+                    <li>Approval, question and completion sounds play consistently across agents</li>
+                    <li>The default Usage shortcut no longer conflicts with other keys</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.46/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.46/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.46/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.46/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.46/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.46.dmg"
+                sparkle:edSignature="QzOXPkR6sC+OYGHD1HKe97it/uvx3nl0/KVESQXhYLDNQ7a5TBhgovbQRPAjVE+2V5PeecOwh72CeIxafD1/Cw=="
+                length="29284063"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.0.45</title>
             <pubDate>Wed, 19 Aug 2026 09:10:15 +0800</pubDate>
             <sparkle:version>1.0.45</sparkle:version>
