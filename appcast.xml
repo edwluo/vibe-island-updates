@@ -7,6 +7,54 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.48</title>
+            <pubDate>Fri, 28 Aug 2026 14:07:07 +0800</pubDate>
+            <sparkle:version>1.0.48</sparkle:version>
+            <sparkle:shortVersionString>1.0.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <!-- whats-new-id: claude-desktop -->
+                <!-- whats-new-since: 1.0.47 -->
+                <h3>New Features</h3>
+                <ul>
+                    <li><strong>Claude Desktop Chat and Cowork are now on the island.</strong> Get notified about completions, questions and approval requests, and jump back to the right Chat, Cowork or Code conversation.</li>
+                    <li><strong>DeepSeek Harness over SSH Remote.</strong> Remote dsh sessions now appear on the island and return you to the right SSH terminal.</li>
+                    <li><strong>A compact mode for questions.</strong> Turn off automatic expansion for Ask User Question prompts when you want the island to stay collapsed.</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Usage now keeps multiple accounts visible and lets you cycle between accounts from the same provider, whether they come from local or SSH sessions.</li>
+                    <li>Claude Usage stays visible as you cycle providers and follows compatible custom billing routes without losing previously visible usage.</li>
+                    <li>Codex Credits and reset cards stay visible more reliably and make better use of both sides of the notch.</li>
+                    <li>Sound controls remain visible while sounds are turned off, so you can still see what is available.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>Notifications and sounds no longer revive stale completion, warning, approval or question states after a session has moved on.</li>
+                    <li>Fixed incorrect completion sounds from Codex subagents.</li>
+                    <li>Tool failures no longer sound like the whole task failed.</li>
+                    <li>Fixed phantom cards from Open Design probes, reverted Codex conversations and Codex background safety reviews.</li>
+                    <li>Terminal jumps now verify that the correct window actually received focus.</li>
+                    <li>Focus mode choices update immediately in Settings.</li>
+                    <li>DeepSeek Harness setup now recovers duplicate registrations without overwriting customized plugin files.</li>
+                    <li>Oh My Pi subagents no longer cause repeated completion sounds or running/completed flicker.</li>
+                    <li>ZCode sessions now select the correct Zhipu usage provider.</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.48/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.48/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.48/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.48/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.48/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.48.dmg"
+                sparkle:edSignature="eVnFH0f13No6g8k0dltX6AHX5mygv76H+mAv6NdoSwI4FJbqwWXtqXozYRE1LadOt3Xd0IP8sj5YUru9DB9TDA=="
+                length="29892936"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.0.46</title>
             <pubDate>Sun, 23 Aug 2026 06:00:32 +0800</pubDate>
             <sparkle:version>1.0.46</sparkle:version>
