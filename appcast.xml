@@ -7,6 +7,55 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.49</title>
+            <pubDate>Wed, 16 Sep 2026 07:02:00 +0800</pubDate>
+            <sparkle:version>1.0.49</sparkle:version>
+            <sparkle:shortVersionString>1.0.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <!-- whats-new -->
+                <!-- whats-new-id: opencode-2-openclaw -->
+                <!-- whats-new-since: 1.0.49 -->
+                <h3>New Features</h3>
+                <ul>
+                    <li>OpenClaw sessions now appear on the island, with activity, completions, approvals, questions, and a jump back to the right conversation.</li>
+                    <li>OpenCode 2 now works on the island alongside OpenCode 1, including approvals and session status.</li>
+                    <li>Settings can register extra Claude Code, Codex, and Grok configuration folders, so forks and additional homes are tracked separately.</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Completion cards render Markdown, including lists, tables, and fenced code.</li>
+                    <li>Claude computer-use app-access prompts can appear on the island.</li>
+                    <li>Follow-up reminders can fire after 1, 2, 3, or 5 minutes.</li>
+                    <li>Session jumps are more reliable in Ghostty (including multiple app instances) and in browsers after switching tabs.</li>
+                    <li>Jump to the exact ZCode App conversation.</li>
+                    <li>Approvals and questions are more reliable for OpenCode and Pi.</li>
+                    <li>DeepSeek Harness works with the latest version after a breaking upstream update, including approvals and questions.</li>
+                    <li>Claude Desktop Chat and Cowork sessions that recently stopped appearing are recognized again.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>OpenCode 2 plugins no longer fail to load because they were generated for the OpenCode 1 API.</li>
+                    <li>Kimi approval prompts show up again, and Kimi accounts are identified more reliably.</li>
+                    <li>Codex usage no longer mixes quotas after switching accounts.</li>
+                    <li>Disabling the Cursor integration hides Cursor usage instead of leaving a leftover provider.</li>
+                    <li>SSH setup can write agent configuration files that are symlinks.</li>
+                    <li>Pi usage stays bound to the correct billing account.</li>
+                </ul>
+            ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.49/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.49/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.49/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.49/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.49/fr.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://dl.vibeisland.app/VibeIsland-1.0.49.dmg"
+                sparkle:edSignature="s8igoY0D6yFDiYYPgi/O0VU+yW8INQkMcBj9N3ZLaOqFJt7GhIsBK0vlrtcyoyligxeugD1Amab4CQXM51wPDw=="
+                length="32745667"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 1.0.48</title>
             <pubDate>Fri, 28 Aug 2026 14:07:07 +0800</pubDate>
             <sparkle:version>1.0.48</sparkle:version>
