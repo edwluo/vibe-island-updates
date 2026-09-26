@@ -6,7 +6,7 @@
         <description>Vibe Island - macOS Notch panel for Claude Code</description>
         <language>en</language>
 
-        <item xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+        <item>
             <title>Version 1.0.51</title>
             <pubDate>Sat, 26 Sep 2026 01:48:29 +0000</pubDate>
             <sparkle:version>1.0.51</sparkle:version>
