@@ -6,6 +6,57 @@
         <description>Vibe Island - macOS Notch panel for Claude Code</description>
         <language>en</language>
 
+        <item xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+            <title>Version 1.0.51</title>
+            <pubDate>Sat, 26 Sep 2026 01:48:29 +0000</pubDate>
+            <sparkle:version>1.0.51</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+        <!-- whats-new -->
+        <!-- whats-new-id: latin-american-spanish -->
+        <!-- whats-new-since: 1.0.50 -->
+        <h2>License Fix</h2>
+
+        <ul>
+          <li>Fixed an issue introduced in 1.0.50 that prevented license recognition and activation.</li>
+        </ul>
+
+        <h2>Improvements</h2>
+
+        <ul>
+          <li>Added Latin American Spanish as an app language.</li>
+          <li>OpenCode 2 conversations now show assistant responses and questions more completely. Clicking a session returns to its OpenCode viewer when one is available.</li>
+          <li>Sessions that share a backend with another app now return to the viewer where you were working, rather than always opening the backend app.</li>
+          <li>Codex sessions launched through CodexHost can return to the corresponding thread.</li>
+          <li>On macOS 27, the island moves aside while the menu bar's overflow icons are expanded, so it does not cover the icons beside the notch. The expanded panel also fits its content more reliably.</li>
+          <li>Improved overall performance and responsiveness.</li>
+        </ul>
+
+        <h2>Fixes</h2>
+
+        <ul>
+          <li>Zed sessions started in a project subfolder now return to the existing project workspace instead of opening that subfolder as a new workspace.</li>
+          <li>Fixed a tmux jump that could select the right pane number in the wrong tmux window.</li>
+          <li>Native terminal sessions opened from Orca now return to their terminal instead of the Orca pane they were launched from.</li>
+          <li>Codex approvals and delegated sessions now keep the right request context, execution owner, and working status more reliably.</li>
+          <li>Claude Desktop Chat and Cowork work again with recent Claude Desktop updates. Code conversations also recover after restarting Vibe Island, and rewinding a conversation no longer leaves a duplicate card until the next response finishes.</li>
+          <li>Bypass stays active for Claude Code sessions using an additional configuration folder, instead of asking again on every tool call.</li>
+          <li>Long-running Claude and Codex work no longer changes to Ready just because an old transcript or previous-turn timestamp went stale. Long conversation compaction also keeps its progress state until it finishes.</li>
+          <li>Fixed OpenClaw plugin upgrades being blocked when the installed plugin came from an earlier Vibe Island release, while preserving files you have edited. Manual Gateway restart now uses the Gateway's own launch command. Background heartbeat and Gateway-internal runs no longer create extra session cards.</li>
+          <li>Pi sessions keep their cards and context when you use `/reload`.</li>
+          <li>SSH Remote setup can recover when uploading the remote helper through the SSH fallback path. Remote Codex approvals also read their request context more reliably.</li>
+          <li>Usage no longer shows expired windows or lets stale Codex data replace a fresher reading. Codex reset-credit counts stay with the right account after switching accounts. Claude usage now favors the current quota window over older Desktop readings, and Zhipu Max quotas display correctly after switching keys.</li>
+          <li>Fixed panel hover, sizing, and accidental text selection issues.</li>
+        </ul>
+        ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.51/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.51/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.51/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.51/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.51/fr.html</sparkle:releaseNotesLink>
+            <enclosure url="https://dl.vibeisland.app/VibeIsland-1.0.51.dmg" length="33947312" type="application/octet-stream" sparkle:edSignature="wnc9IIHrzS8PjNjq8imYejRpZp4LjIfzWg/clSA2mabil5sNvLd4bGUSrMlR02m9NzMBWz7EPov3AsfkGVsjDQ=="/>
+        </item>
         <item>
             <title>Version 1.0.49</title>
             <pubDate>Wed, 16 Sep 2026 07:02:00 +0800</pubDate>
