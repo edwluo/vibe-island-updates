@@ -7,6 +7,65 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.53</title>
+            <pubDate>Sat, 10 Oct 2026 16:26:53 +0800</pubDate>
+            <sparkle:version>1.0.53</sparkle:version>
+            <sparkle:shortVersionString>1.0.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+        <!-- whats-new -->
+        <!-- whats-new-id: claude-desktop-2-antigravity-2-custom-agents -->
+        <!-- whats-new-since: 1.0.53 -->
+        <h2>New Features</h2>
+
+        <ul>
+          <li>Antigravity 2.0 support: questions and approvals from the Antigravity app and IDE now show correctly, and you can answer them right from the island. Clicking a card opens the exact conversation, and cards keep their project name and title and come back after Vibe Island restarts.</li>
+          <li>DeepSeek Harness Desktop support: official DeepSeek Harness Desktop installs set up cleanly, and clicking a card opens the exact conversation in both the desktop app and the web, including a web page opened as localhost.</li>
+          <li>OpenCode over SSH Remote: OpenCode 2, OpenCode and MiMoCode sessions on remote hosts now appear on the island.</li>
+          <li>Antigravity usage now shows when you use only the Antigravity IDE, or only the agy command-line tool (version 1.1.11 or later), without the Antigravity app running.</li>
+          <li>Custom agents (beta): connect your own agent to Vibe Island by running one command per event. It shows status and completion alerts on the island with its own neutral look, and clicking the card jumps back to your tool. Setup guide: https://vibeisland.app/docs/custom-agents/ (also linked from Settings → Integrations → Developer).</li>
+        </ul>
+
+        <h2>Improvements</h2>
+
+        <ul>
+          <li>Updated for Claude Desktop 2.x, which merges Chat and Cowork: chats finish correctly instead of staying on "working", and cards show when Claude is waiting for your answer or approval, along with the model and project folder.</li>
+          <li>When you quit an agent app such as Zed, T3 Code, WorkBuddy or Paseo, its cards are now cleaned up shortly afterwards instead of lingering, and cards no longer disappear while an app restarts to update.</li>
+          <li>SSH Remote: remote components now update automatically after each Vibe Island update.</li>
+          <li>Smart suppression now works inside zellij: when only one terminal is attached and you are looking at the agent's pane, the island no longer pops up.</li>
+          <li>The archive button on each card is now labeled "Archive".</li>
+          <li>Settings now describe what the Antigravity and IDE rows do.</li>
+          <li>About now links to the Privacy Policy and Terms of Use.</li>
+          <li>Improved overall stability and reliability.</li>
+        </ul>
+
+        <h2>Fixes</h2>
+
+        <ul>
+          <li>Claude Desktop: background runs started by plugins inside a Code session no longer fill the panel with cards and sounds.</li>
+          <li>Claude Desktop: Code session cards no longer linger after Claude Desktop puts the conversation to sleep. A card is removed once you have read the reply; unread ones follow your Idle cleanup setting.</li>
+          <li>Claude Desktop with third-party inference (a gateway, Amazon Bedrock, Google Vertex AI or Microsoft Foundry): clicking a Code session card now opens the exact conversation instead of only bringing Claude Desktop to the front.</li>
+          <li>Claude Desktop: the 5-hour usage limit no longer shows "–" or stale numbers.</li>
+          <li>Antigravity: a conversation that ends with an error no longer stays on "working".</li>
+          <li>Codex 0.157 and later: sessions in different terminal tabs no longer jump to the wrong tab, remove each other's cards, or lose their completion sound.</li>
+          <li>OpenCode 2: declining a permission or cancelling a question now marks the turn as interrupted without affecting other pending cards.</li>
+          <li>OpenCode 2: restarting OpenCode or resuming a conversation no longer leaves stuck or duplicate cards.</li>
+          <li>OpenCode 2: clicking a card switches to that session in Ghostty and tmux when a single OpenCode window is open.</li>
+          <li>OpenCode: cards keep their model label after Vibe Island restarts.</li>
+          <li>Ghostty: jumping to a session now puts keyboard focus in the right window, including on multiple displays.</li>
+          <li>Otty: jumping from a background pane now lands on the right pane.</li>
+          <li>zellij and herdr: OpenCode and MiMoCode sessions now jump to the correct pane.</li>
+        </ul>
+        ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.53/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.53/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.53/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.53/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.53/fr.html</sparkle:releaseNotesLink>
+            <enclosure url="https://dl.vibeisland.app/VibeIsland-1.0.53.dmg" length="35229369" type="application/octet-stream" sparkle:edSignature="Zh+0CXzeS+YQgouPthYoUfrK1uaSw1pC3D/oyGS6AlSJVeNwLa97nnUj8oR0PRQ62P6eZ89qZeOjyo0P1lKACw==" />
+        </item>
+
+        <item>
             <title>Version 1.0.51</title>
             <pubDate>Sat, 26 Sep 2026 01:48:29 +0000</pubDate>
             <sparkle:version>1.0.51</sparkle:version>
