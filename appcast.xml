@@ -7,6 +7,90 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.55</title>
+            <pubDate>Fri, 23 Oct 2026 21:23:26 +0800</pubDate>
+            <sparkle:version>1.0.55</sparkle:version>
+            <sparkle:shortVersionString>1.0.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+        <!-- whats-new -->
+        <!-- whats-new-id: usage-alerts -->
+        <!-- whats-new-since: 1.0.54 -->
+        <h2 data-kind="highlight">Highlights</h2>
+
+        <ul>
+          <li><strong>Usage alerts</strong>: When a 5-hour or weekly limit reaches your alert level (80% by default), runs out, or resets, a short alert opens beside the island with a sound, so you know before you run out. Choose which limits to watch and set the alert level, or get the alerts on your iPhone with Bark. Adjust it in Settings → Usage.</li>
+          <li><strong>Codex reset alerts</strong>: When the Codex team announces a usage reset or reset cards, the island shows a card with the expected time; click it to read the original post. You're also reminded when a reset card arrives in your account and before it expires (7 days ahead by default), so it doesn't go unused. Adjust it in Settings → Usage.</li>
+        </ul>
+
+        <h2>New Features</h2>
+
+        <ul>
+          <li><strong>Answer Codex questions on the island</strong>: When Codex asks a question, it appears on the island and you can answer it there without switching back to Codex. Works with the Codex app and recent versions of terminal Codex.</li>
+          <li><strong>Background tasks</strong>: Background commands an agent runs and the local ports it opens can be listed under that agent, where you can open a port or stop a command with one click. Off by default; turn on "Show background tasks" in Settings → Display.</li>
+          <li><strong>GitHub Copilot CLI over SSH Remote</strong>: Copilot CLI sessions on remote hosts now appear on the island through SSH Remote. Handling Copilot CLI approvals and questions on the island is experimental and off by default; turn it on in Settings → Integrations → Copilot CLI.</li>
+        </ul>
+
+        <h2>Improvements</h2>
+
+        <ul>
+          <li><strong>Approval card layout</strong>: Approval cards now lead with what the agent wants to do and why it needs your approval, with the full command below, so you can decide without reading through a long command first. Approvals you have to handle in the terminal or the host app say where to go. While Claude Code works, its session card shows what the current step is doing instead of the raw command.</li>
+          <li><strong>Faster jumps across desktops</strong>: On macOS 27, jumping to a session on another desktop now switches there directly instead of sliding through every desktop in between.</li>
+          <li><strong>Clearer MCP tool names</strong>: Claude Code's MCP tools now show as "server: tool", which is easier to read.</li>
+          <li><strong>Better Claude Code hook handling</strong>: Hooks you delete are no longer added back automatically; click Restore in Settings if you want them again. Repair and uninstall only touch the hooks Vibe Island wrote, and your own status line and settings.json setup are kept.</li>
+          <li><strong>Codex usage matches Codex Desktop</strong>: Percentages, limit names, monthly limits and balances now match Codex Desktop, and Enterprise monthly limits show in dollars.</li>
+          <li><strong>Cursor usage for more plans</strong>: Your limits now show even if you only use the Cursor CLI. Team, Enterprise, unified-billing and request-based plans display correctly, and on-demand spend beyond your plan is shown too.</li>
+          <li><strong>Claude Desktop updates</strong>: Chat and Cowork now share one switch, and new Desktop chats play the session start sound.</li>
+          <li><strong>Wider notch height range</strong>: "Notch height" in Settings → Display → Tuning now goes up to +12 pt.</li>
+          <li><strong>Device limit handling in setup</strong>: When a new Mac reaches the license device limit during setup, you can free up a device, add this Mac, or switch to another key right from the setup screen.</li>
+          <li><strong>Custom agent improvements</strong>: Your agent's own icon now shows, its cards are cleaned up when its app quits, and it can tell Vibe Island which conversation is on screen.</li>
+          <li><strong>DSH improvements</strong>: DSH NEXT is supported, clicking a session started from the extension opens VS Code, and DSH's own updates are no longer held up.</li>
+          <li><strong>OpenCode 2 host apps</strong>: Conversations in apps that run their own OpenCode 2 service, such as Paseo, now appear on the island.</li>
+          <li><strong>Performance</strong>: Session tracking and background port scanning use less CPU.</li>
+          <li>Improved overall stability and reliability.</li>
+        </ul>
+
+        <h2>Fixes</h2>
+
+        <ul>
+          <li><strong>Stability</strong>: Fixed an issue where 1.0.54 could quit unexpectedly after running for a while.</li>
+          <li><strong>Claude Code</strong>: Approval and question cards now clear correctly after an approved command fails, after you deny with feedback or choose "Chat about this", and when several approvals are waiting at once.</li>
+          <li><strong>Claude Code</strong>: Codex started from Claude Code no longer shows up as a separate card.</li>
+          <li><strong>Claude Code</strong>: Running subagents stay on the card after Vibe Island restarts, and replying to a finished session keeps it finished even while a background agent is still working.</li>
+          <li><strong>Claude Desktop</strong>: Very large chats, such as ones with generated images, no longer stay on "Working".</li>
+          <li><strong>Codex</strong>: When the session's terminal tab can't be found, clicking the card now brings the terminal to the front instead of doing nothing.</li>
+          <li><strong>Codex</strong>: With several VS Code windows open, clicking a Codex extension conversation card no longer does nothing; if the conversation can't be found, the matching workspace window opens.</li>
+          <li><strong>Codex</strong>: Cancelling an approval with Esc in the terminal clears the card without playing the completion sound, interrupted turns no longer stay on "working", and cards for deleted conversations are removed.</li>
+          <li><strong>Codex</strong>: Setups with only the Codex desktop app now work, and Codex's suggested replies no longer create extra cards.</li>
+          <li><strong>OpenCode 2</strong>: With auto-accept on, the island no longer flashes an approval card for something already approved or plays a sound for it.</li>
+          <li><strong>Hermes</strong>: With smart approvals on, commands Hermes approves on its own no longer trigger the "approval needed" sound.</li>
+          <li><strong>Hermes</strong>: On remote hosts connected through SSH Remote, every Hermes profile now appears on the island, including profiles created later.</li>
+          <li><strong>Usage</strong>: Turning off Grok or Antigravity in Settings now removes their usage from the header carousel.</li>
+          <li><strong>Usage</strong>: After you use a Claude reset card, the 7-day figure no longer stays at 100%; idle Claude Code sessions no longer overwrite fresh usage with old numbers; Claude usage still shows through the status line when credential access is off.</li>
+          <li><strong>Antigravity</strong>: Checking usage no longer opens a browser sign-in page.</li>
+          <li><strong>Jumping</strong>: Ghostty and herdr now focus the right window and tmux lands on the right pane; a custom jump rule for an app that isn't installed no longer brings up a system error.</li>
+          <li><strong>Repository name</strong>: Sessions started inside a repository's .git folder now show the repository name.</li>
+          <li><strong>Kimi Code</strong>: Interrupted turns now end properly, and stale sessions are cleaned up.</li>
+          <li><strong>Gemini CLI</strong>: A lone ~/.gemini folder no longer makes Gemini CLI show as installed.</li>
+          <li><strong>Hyper</strong>: Plugins you've edited are no longer overwritten at launch.</li>
+          <li><strong>Responsiveness</strong>: When the system or tmux is slow, Vibe Island no longer hangs or piles up helper processes.</li>
+        </ul>
+        ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.55/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.55/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hant">https://dl.vibeisland.app/release-notes/1.0.55/zh-Hant.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.55/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.55/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.55/fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="de">https://dl.vibeisland.app/release-notes/1.0.55/de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es-419">https://dl.vibeisland.app/release-notes/1.0.55/es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="pt-BR">https://dl.vibeisland.app/release-notes/1.0.55/pt-BR.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ru">https://dl.vibeisland.app/release-notes/1.0.55/ru.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="he">https://dl.vibeisland.app/release-notes/1.0.55/he.html</sparkle:releaseNotesLink>
+            <enclosure url="https://dl.vibeisland.app/VibeIsland-1.0.55.dmg" length="37960420" type="application/octet-stream" sparkle:edSignature="lJp0IokTueNvaX0DAFGFTxfKVPRqlYjyrNqVmlwoIxkQdVwmADBq0nX5If2VL2mBsUPNt/fRpWS9Bwri+eR/CQ==" />
+        </item>
+
+        <item>
             <title>Version 1.0.53</title>
             <pubDate>Sat, 10 Oct 2026 16:26:53 +0800</pubDate>
             <sparkle:version>1.0.53</sparkle:version>
