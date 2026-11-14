@@ -7,6 +7,124 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.56</title>
+            <pubDate>Sat, 14 Nov 2026 11:32:28 +0800</pubDate>
+            <sparkle:version>1.0.56</sparkle:version>
+            <sparkle:shortVersionString>1.0.56</sparkle:shortVersionString>
+            <sparkle:phasedRolloutInterval>14400</sparkle:phasedRolloutInterval>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+        <!-- whats-new -->
+        <!-- whats-new-id: liquid-glass -->
+        <!-- whats-new-since: 1.0.56 -->
+        <h2 data-kind="highlight">Highlights</h2>
+
+        <ul>
+          <li><strong>Liquid Glass panel look</strong>: On macOS 26 or later, Settings → Display → Panel look switches the expanded panel from Black to Liquid Glass, with Glass level and Readability controls. Black stays the default.</li>
+          <li><strong>Claude reset alerts</strong>: When Anthropic announces a Claude usage reset or a reset grant, the island shows a card with the expected time, and clicking it opens the original post. Adjust them in Settings → Usage.</li>
+          <li><strong>Rex terminal support</strong>: Clicking a session card takes you to its exact tab and pane in Rex, including tmux and herdr running inside Rex.</li>
+          <li><strong>Output speed (tok/s)</strong>: Turn on "Show Output Speed" in Settings → Display to see this turn's output speed after the model name on Claude, Codex, DSH, OpenCode and MiMoCode session cards.</li>
+          <li><strong>A new iPhone app (coming soon)</strong>: Put every agent in your pocket. Join the waitlist from iPhone in the Settings sidebar, and we'll invite you when the beta opens.</li>
+          <li><strong>Shaped by your feedback 💬</strong>: This release takes in more than 25 pieces of feedback from more than 15 of you. Thank you! You can now describe a problem in Settings → About → Report a Problem and send it straight to us with a screenshot and diagnostic report; for ideas, click Feature Request.</li>
+        </ul>
+
+        <h2>New Features</h2>
+
+        <ul>
+          <li><strong>Claude reset cards</strong>: The island now shows available Claude reset cards and their expiry, with alerts for new cards and cards about to expire. Adjust them in Settings → Usage.</li>
+          <li><strong>Approvals survive a restart</strong>: After Vibe Island updates or restarts, approvals, questions and plan reviews that are still waiting appear on the island again.</li>
+          <li><strong>T3 Code thread titles and navigation</strong>: Session cards from T3 Code 0.1.3 or later show the thread name, and clicking a card opens that thread.</li>
+          <li><strong>Mistral Vibe over SSH and in containers</strong>: Mistral Vibe running over SSH or inside Docker / Podman containers now shows up on the island.</li>
+          <li><strong>Apps That Host Agents</strong>: Apps such as OpenBot and Conductor that run agents in their own windows can take approvals back: choose this in Settings → Integrations → Apps That Host Agents. The old Blocked Launcher Apps list now lives here too.</li>
+          <li><strong>Session names from more agents</strong>: Session names set in Pi (/name), Droid, CodeBuddy, Qwen Code, Kimi Code, Copilot CLI and OpenClaw now appear on the session card.</li>
+        </ul>
+
+        <h2>Improvements</h2>
+
+        <ul>
+          <li><strong>Precise navigation</strong>: Clicking a session card takes you to the exact tab and pane in SSH remote sessions and cmux ssh. Ghostty 1.4, Otty and cmux 0.64.11 or later also return correctly to sessions on other desktops or in full-screen windows.</li>
+          <li><strong>First-run onboarding</strong>: The welcome demo is available in all 11 interface languages. To turn on Accessibility, click Open Settings, drag the Vibe Island icon into the list and turn on its switch. The trial page can be closed from its top-right corner to use free mode for now, and you can start the 2-day free trial from the island or the License window at any time.</li>
+          <li><strong>Codex setup</strong>: When you turn on the Codex integration, Vibe Island now completes the trust setup it needs on its own, with no manual authorization.</li>
+          <li><strong>System icon styles</strong>: On macOS 26 or later, the app icon follows the system's dark, clear and tinted styles.</li>
+          <li><strong>Reset card expiry reminders</strong>: By default, you're reminded 7 days and 12 hours before a Claude or Codex reset card expires.</li>
+          <li><strong>Alerts wait until you're back</strong>: While your Mac is asleep, locked or idle, usage and reset-card alerts wait until you return.</li>
+          <li><strong>Usage display priority</strong>: On a notched screen, the header gives usage limits priority over reset-card counts and expiry dates when space is limited.</li>
+          <li><strong>Codex reset cards per account</strong>: With several Codex accounts, each keeps its own reset cards.</li>
+          <li><strong>Local server list</strong>: Standalone ports show their port number and project, and ports opened by a background task appear under that task.</li>
+          <li><strong>Grok usage</strong>: Usage keeps refreshing after the sign-in token expires, and accounts in different config folders are shown separately.</li>
+          <li><strong>OpenCode 2 navigation</strong>: Clicking a session running in an IDE's built-in terminal brings that IDE forward. Without a terminal, it opens OpenCode Desktop.</li>
+          <li><strong>Island buttons</strong>: Buttons on the island now respond visibly when pressed, and animations follow the Reduce Motion setting.</li>
+          <li><strong>Add a Mac</strong>: You can add another Mac from the License window and Settings → Pass at any time, without waiting until every seat is taken.</li>
+          <li><strong>Content font size</strong>: Content Font Size in Settings → Display now scales the whole expanded panel, not just the body text.</li>
+          <li><strong>Performance</strong>: Vibe Island uses fewer resources while idle and while following Claude Desktop and Codex sessions, and uses less memory after running for a long time. Clicking a Claude session card also jumps faster.</li>
+        </ul>
+
+        <h2>Fixes</h2>
+
+        <ul>
+          <li><strong>Responsiveness</strong>: Fewer brief freezes after launch, while handling approvals and while exporting a diagnostic report.</li>
+          <li><strong>Built-in sounds</strong>: Built-in sounds no longer go silent on some Macs, and speakers no longer hum after sleep.</li>
+          <li><strong>Stability</strong>: Improved stability when switching audio devices, using Ghostty, showing approvals and reading long conversations.</li>
+          <li><strong>Claude Desktop</strong>: Approvals in Bypass mode that can only be answered on the island now say so, and sessions hidden by silence rules no longer leave approvals you can't answer.</li>
+          <li><strong>Claude Desktop</strong>: After a restart, sessions keep the name of their original project folder, and sessions in a worktree show the name of their repository.</li>
+          <li><strong>Claude Code</strong>: Idle sessions return to waiting for input after automatic compaction instead of staying on working.</li>
+          <li><strong>Claude Code over SSH</strong>: Background agents no longer stay shown as running, and after the Mac sleeps or changes networks, remote tasks no longer hang for ten minutes.</li>
+          <li><strong>SSH remotes</strong>: Sessions in local Docker or sbx containers no longer show under an unrelated SSH host.</li>
+          <li><strong>SSH remotes</strong>: When a Vibe Island hook on a remote host gets stuck, it now exits within 3 seconds, so the agent no longer keeps waiting.</li>
+          <li><strong>Claude usage</strong>: Max plans no longer keep showing a stale 5-hour reading from October 30.</li>
+          <li><strong>Claude usage</strong>: Usage refreshes when credentials are stored in a file (for example, after signing in over SSH).</li>
+          <li><strong>Codex</strong>: Questions and approvals can be handled on the island when an IDE plugin starts before the Codex app.</li>
+          <li><strong>Codex IDE plugins</strong>: Unanswered questions from the VS Code or Cursor plugin stay on the island after a turn ends.</li>
+          <li><strong>Codex</strong>: Codex tasks running in PostHog Code show their full conversation and progress.</li>
+          <li><strong>Codex special reset alerts</strong>: These alerts now appear only on Macs that use Codex.</li>
+          <li><strong>Reset alert replay</strong>: Tapping the party-popper button shows the alert again even when a Focus such as Sleep is on.</li>
+          <li><strong>Codex</strong>: Available credits no longer trigger a usage-limit warning when the subscription limit is used up.</li>
+          <li><strong>Codex</strong>: While Vibe Island is not running, Codex no longer reports "Hook failed" every time.</li>
+          <li><strong>Codex</strong>: Supports the session log format used since Codex 0.158: cards show your latest message and Codex's latest update again.</li>
+          <li><strong>Codex</strong>: codex exec running on its own, for example in tmux, now appears as its own session and alerts you when it finishes.</li>
+          <li><strong>Codex</strong>: When another app restarts Codex's shared background server, clicking a card no longer opens that unrelated app.</li>
+          <li><strong>Codex app</strong>: When an idle thread is unloaded in the background after you switch threads, its card no longer disappears early or repeats the completion alert.</li>
+          <li><strong>Codex app</strong>: A newer question or completion is no longer overwritten after you submit an approval, and permission requests in threads without a project can be handled on the island.</li>
+          <li><strong>Codex app</strong>: Question cards on the island clear after you answer, skip or close the question in Codex, and completion marks clear once you've read the thread in Codex 26.1016 or later.</li>
+          <li><strong>Mistral Vibe</strong>: You're alerted at the end of every turn, not just the first.</li>
+          <li><strong>Docker Sandboxes</strong>: The container setup command now runs inside sbx sandboxes, and when the sandbox blocks the connection it prints the command to allow it instead of reporting Connected.</li>
+          <li><strong>Custom agents</strong>: Clicking the card of an agent that declares its app now returns to that app. With Show Agents as Icons on, a custom agent without an icon shows its name.</li>
+          <li><strong>Kimi</strong>: Multi-step replies and sessions that change working folders show the right text, and a new prompt no longer shows the previous answer.</li>
+          <li><strong>Kimi</strong>: After switching accounts, usage is no longer overwritten by the old account, and usage keeps refreshing between conversations.</li>
+          <li><strong>T3 Code</strong>: Answering or dismissing a question or denying an approval in T3 clears the matching card on the island.</li>
+          <li><strong>T3 Code</strong>: Linked account configs also receive approvals and completion alerts, and generating titles no longer adds extra cards.</li>
+          <li><strong>Cursor CLI</strong>: Replies that arrive after completion are filled in, and the session no longer goes back to working.</li>
+          <li><strong>Antigravity</strong>: Finished sessions no longer go back to waiting for approval because of a late check.</li>
+          <li><strong>Hermes</strong>: After a conversation is compressed, the island no longer adds an extra card.</li>
+          <li><strong>ZCode 3.16</strong>: New sessions show the correct title, and clicking a card returns to that conversation.</li>
+          <li><strong>DSH</strong>: After Vibe Island updates, a running DSH loads the new integration without a restart.</li>
+          <li><strong>Subagent completion alerts</strong>: When waiting for all subagents to finish, background agents detected later are included.</li>
+          <li><strong>Queued approvals</strong>: When the same approval arrives twice or several approvals are queued, removing the card now releases the ones behind it too, so the agent no longer hangs.</li>
+          <li><strong>Session switcher</strong>: When you open the switcher with a custom shortcut, releasing the modifier jumps to the highlighted session without pressing Return.</li>
+          <li><strong>Approval and question cards</strong>: Right after a card appears on its own, clicks and shortcuts are briefly ignored, so input meant for another window isn't taken as an answer.</li>
+          <li><strong>Background tasks</strong>: Local tasks stopped from the island show Stopped instead of Failed.</li>
+          <li><strong>Session restore</strong>: A restart no longer overwrites an approval that just arrived or removes sessions that are still in use.</li>
+          <li><strong>Long conversations</strong>: Chinese text and emoji in long conversations no longer appear garbled or cut off.</li>
+          <li><strong>Silence and filter rules</strong>: After several quick edits, your latest choices are kept after a restart.</li>
+          <li><strong>Disable click-to-jump</strong>: The setting now also applies to browser, IDE, Claude Desktop and Codex app sessions.</li>
+          <li><strong>Usage cards</strong>: Switching editions or account changes no longer adds duplicate usage cards for the same account.</li>
+        </ul>
+        ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.56/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.56/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hant">https://dl.vibeisland.app/release-notes/1.0.56/zh-Hant.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.56/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.56/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.56/fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="de">https://dl.vibeisland.app/release-notes/1.0.56/de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es-419">https://dl.vibeisland.app/release-notes/1.0.56/es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="pt-BR">https://dl.vibeisland.app/release-notes/1.0.56/pt-BR.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ru">https://dl.vibeisland.app/release-notes/1.0.56/ru.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="he">https://dl.vibeisland.app/release-notes/1.0.56/he.html</sparkle:releaseNotesLink>
+            <enclosure url="https://dl.vibeisland.app/VibeIsland-1.0.56.dmg" length="41614742" type="application/octet-stream" sparkle:edSignature="oOoO9257ZmVcGLOlph5O8RIgY/cc8+B2iF+XV9S+LnsYwmndho8hEQOjLcFp9eL2nUVX/gP1pPIDsbjKmMYTDg==" />
+        </item>
+
+        <item>
             <title>Version 1.0.55</title>
             <pubDate>Fri, 23 Oct 2026 21:23:26 +0800</pubDate>
             <sparkle:version>1.0.55</sparkle:version>
