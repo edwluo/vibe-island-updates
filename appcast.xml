@@ -7,6 +7,87 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.57</title>
+            <pubDate>Fri, 27 Nov 2026 08:57:45 +0800</pubDate>
+            <sparkle:version>1.0.57</sparkle:version>
+            <sparkle:shortVersionString>1.0.57</sparkle:shortVersionString>
+            <sparkle:phasedRolloutInterval>14400</sparkle:phasedRolloutInterval>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+        <!-- whats-new -->
+        <!-- whats-new-id: persistent-usage -->
+        <!-- whats-new-since: 1.0.57 -->
+        <h2 data-kind="highlight">Highlights</h2>
+
+        <ul>
+          <li><strong>Usage on the collapsed island (opt-in)</strong>: Keep the usage limits of the service you're using in view while the island is collapsed, with what it shows adjusting automatically as your usage gets tight. You can also put a usage icon for each service in the menu bar. Both are off by default; turn on "Show usage when collapsed" and "Show usage in the menu bar" in Settings → Display.</li>
+          <li><strong>Doubao Work support (Beta)</strong>: Track task status, approval alerts, and completion notifications from both the Doubao Work desktop app and Doubao Work inside Feishu on the island. Turn it on or off in Settings → Integrations.</li>
+          <li><strong>Terminal Codex approvals match native options</strong>: When Codex running in a terminal (including over SSH) asks for approval, the island and Codex display the same native options, and answering in either place applies. Requires Codex 0.159 or later.</li>
+        </ul>
+
+        <h2>New Features</h2>
+
+        <ul>
+          <li><strong>Subtasks show their prompt and model</strong>: Subtasks started by an agent (including Antigravity's agy) are now named after the prompt they received and display the model they use.</li>
+          <li><strong>Antigravity shows model and thinking level</strong>: Session cards now show the model, thinking level, and speed Antigravity is currently using.</li>
+          <li><strong>Kimi Code custom config folders</strong>: Kimi Code setups that use `KIMI_CODE_HOME` can now be added in Settings → Integrations → Add CLI Branch.</li>
+          <li><strong>T3 Code recognizes custom Claude folders</strong>: T3 Code sessions that use a custom Claude config folder are now recognized as the matching Claude branch.</li>
+          <li><strong>Approve and answer Kimi Code on the island</strong>: Approvals and questions from the Kimi Code desktop app can now be approved, denied, or answered directly on the island.</li>
+          <li><strong>ZCode Coding Plan usage</strong>: ZCode signed in with an account now shows its Coding Plan usage. Turn it on in Settings → Usage.</li>
+        </ul>
+
+        <h2>Improvements</h2>
+
+        <ul>
+          <li><strong>Option to keep approvals collapsed</strong>: In Settings → Notifications → Panel notifications, "Expand the panel when you're needed" (previously "Expand the panel for questions") now controls both approvals and questions. The island still expands by default; turning the switch off keeps both collapsed and only lights up the bell.</li>
+          <li><strong>Error alerts when a turn fails</strong>: When a turn ends with an error, the island now shows a warning and plays an error sound instead of treating it as a normal completion.</li>
+          <li><strong>Antigravity alerts you before background tasks finish</strong>: The island now alerts you as soon as Antigravity finishes replying, without waiting for background commands or subtasks to finish.</li>
+          <li><strong>Antigravity usage shown per account</strong>: When you're signed in to multiple accounts, Antigravity usage is now displayed separately for each account.</li>
+          <li><strong>Archived Antigravity conversations leave the island</strong>: Archiving a conversation in Antigravity now removes its session card from the island.</li>
+          <li><strong>T3 Code 0.1.11 grouping and approval accuracy</strong>: Updated for T3 Code 0.1.11 so the sidebar shows project names and subthreads nest under the thread that started them. Plan reviews no longer open an extra card, actions already allowed in T3 Code no longer ask for approval again, and CodeBuddy inside T3 Code no longer triggers false approvals.</li>
+          <li><strong>ZCode output speed and unified workflow cards</strong>: ZCode session cards now show output speed, group every role in a workflow under one session, and collapse automatically when the run ends.</li>
+          <li><strong>WorkBuddy alerts when waiting for confirmation</strong>: When WorkBuddy pauses to wait for your confirmation, the island alerts you instead of continuing to show it as running.</li>
+          <li><strong>Native macOS wording for Traditional Chinese</strong>: The Traditional Chinese interface now matches macOS's standard terminology.</li>
+          <li><strong>Lower CPU usage for the animated pet</strong>: The animated pet is now pre-rendered so it uses less CPU while running.</li>
+        </ul>
+
+        <h2>Fixes</h2>
+
+        <ul>
+          <li><strong>Launch crash on the macOS 27.2 beta</strong>: Vibe Island no longer quits right after opening on the macOS 27.2 beta.</li>
+          <li><strong>Codex desktop app click-to-jump restored</strong>: Starting with Codex desktop app 26.1117, clicking a session card takes you to the matching conversation again.</li>
+          <li><strong>Codex desktop app questions open in Codex for now</strong>: Due to a Codex desktop app update, questions from the desktop app cannot be answered directly on the island for now; the question card explains this and lets you jump straight to Codex in one click. We're working on a proper solution.</li>
+          <li><strong>Answer Antigravity 2.34 on the island again</strong>: Starting with Antigravity 2.34, you can once again answer questions and approve or deny requests directly on the island.</li>
+          <li><strong>Antigravity stops creating repeated "CLI Project" entries</strong>: Reading usage in Vibe Island no longer causes Antigravity to repeatedly create "CLI Project" in the background.</li>
+          <li><strong>Interrupted Antigravity turns stop showing as running</strong>: Canceling or interrupting a turn in Antigravity now promptly ends its session card on the island.</li>
+          <li><strong>More accurate Antigravity click-to-jump</strong>: Clicking a session card takes you to the right Antigravity conversation more reliably, and Antigravity running inside T3 Code is now recognized.</li>
+          <li><strong>VS Code Copilot questions show full prompts and options</strong>: When VS Code Copilot asks a question, the island now displays the full question and its options instead of just the tool name.</li>
+          <li><strong>Claude Code split-pane teammates no longer appear twice</strong>: A running split-pane teammate now shows a single card instead of appearing twice.</li>
+          <li><strong>Hermes shows the right folder and preserves config</strong>: Sessions running through the Hermes gateway now show the correct project folder and terminal, and writing the Hermes config no longer breaks its indentation or drops your existing settings.</li>
+          <li><strong>Rex jumps to the right pane</strong>: Clicking a session card now jumps to its specific tab and pane in Rex instead of only bringing up the app.</li>
+          <li><strong>Devin no longer adds an extra Claude card</strong>: After Devin imports your Claude settings, the island no longer displays an extra Claude session card.</li>
+          <li><strong>Kimi Code SSH sessions finish cleanly</strong>: Kimi Code sessions running over SSH now end properly, and their completion cards display the reply.</li>
+          <li><strong>No alert sounds right after waking from screen lock</strong>: The island no longer plays notification sounds during the first few seconds after waking from a locked screen.</li>
+          <li><strong>Stale usage readings no longer shown on failure</strong>: When usage for a provider keeps failing to load, the island no longer displays an outdated reading as the current value.</li>
+          <li><strong>Antigravity and Mistral Vibe stop going silent after turn one</strong>: Fixed an issue where agents such as Antigravity and Mistral Vibe stopped alerting you starting from the second turn.</li>
+          <li>Improved overall stability and reliability.</li>
+        </ul>
+        ]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://dl.vibeisland.app/release-notes/1.0.57/en.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hans">https://dl.vibeisland.app/release-notes/1.0.57/zh-Hans.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="zh-Hant">https://dl.vibeisland.app/release-notes/1.0.57/zh-Hant.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://dl.vibeisland.app/release-notes/1.0.57/ja.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ko">https://dl.vibeisland.app/release-notes/1.0.57/ko.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="fr">https://dl.vibeisland.app/release-notes/1.0.57/fr.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="de">https://dl.vibeisland.app/release-notes/1.0.57/de.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es-419">https://dl.vibeisland.app/release-notes/1.0.57/es.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="pt-BR">https://dl.vibeisland.app/release-notes/1.0.57/pt-BR.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ru">https://dl.vibeisland.app/release-notes/1.0.57/ru.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="he">https://dl.vibeisland.app/release-notes/1.0.57/he.html</sparkle:releaseNotesLink>
+            <enclosure url="https://dl.vibeisland.app/VibeIsland-1.0.57.dmg" length="39108170" type="application/octet-stream" sparkle:edSignature="7kJhH2enK5m4qeUZIxXEryaeZJjxZBFDnQZGcgiHwDs8Nxuhx5sA6WSZe4haaj4A4KRp/QvlIQHDzVj2gM67CA==" />
+        </item>
+
+        <item>
             <title>Version 1.0.56</title>
             <pubDate>Sat, 14 Nov 2026 11:32:28 +0800</pubDate>
             <sparkle:version>1.0.56</sparkle:version>
